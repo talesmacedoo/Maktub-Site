@@ -29,7 +29,7 @@
             <h2><span>Transforme suas finanças com a <strong>Maktub!</strong></span></h2>
             <p>Sua parceira financeira desde 2002.</p>
             <div class="d-flex">
-              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="#about" class="btn-get-started">Saiba Mais</a>
               <!--<a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>-->
             </div>
           </div>
@@ -215,10 +215,10 @@
 
               <div class="col-lg-6">
                 <div class="stats-item d-flex">
-                  <i class="bi bi-headset flex-shrink-0"></i>
+                  <i class="bi bi-cake2 flex-shrink-0"></i>
                   <div>
-                    <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
+                    <span data-purecounter-start="0" data-purecounter-end="22" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Anos </strong> <span>de <strong>experiência</strong> no crédito consignado</span></p>
                   </div>
                 </div>
               </div><!-- End Stats Item -->
@@ -282,7 +282,7 @@
               </div>
               <h3>APOSENTADOS E PENSIONISTAS DO INSS</h3>
               <p>Aproveite as melhores taxas do mercado, faça seu empréstimo com segurança e agilidade.</p>
-              <a href="service-details.html" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+              <a href="#" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -293,7 +293,7 @@
               </div>
               <h3>SERVIDORES DO GORVERNO FEDERAL</h3>
               <p>Com taxas e prazos diferenciados, o Servidor Civil do Governo Federal na ativa ou aposentado dispõe de agilidade e segurança na hora de adquirir seu Crédito.</p>
-              <a href="service-details.html" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+              <a href="#" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -304,7 +304,7 @@
               </div>
               <h3>SERVIDORES PÚBLICOS DO GOVERNO ESTADUAL</h3>
               <p>Venha à MAKTUB e aproveite as melhores oportunidades em crédito consignado para Servidores Públicos Estaduais com total segurança e agilidade.</p>
-              <a href="service-details.html" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+              <a href="#" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -315,7 +315,7 @@
               </div>
               <h3>SERVIDORES MUNICIPAIS</h3>
               <p>Venha à MAKTUB e aproveite as melhores oportunidades em crédito consignado para Servidores Públicos Municipais com total segurança e agilidade.</p>
-              <a href="service-details.html" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+              <a href="#" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -326,7 +326,7 @@
               </div>
               <h3>MILITARES NA ATIVA OU REFORMADOS</h3>
               <p>Militares das Forças Armadas (Marinha, Exército e Aeronáutica), da ativa ou reformados, obtenha seu empréstimo pessoal de forma Agil e Segura. Com juros especiais, pré-fixados e parcelamento com prestações fixa</p>
-              <a href="service-details.html" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+              <a href="#" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -337,7 +337,7 @@
               </div>
               <h3>FUNCIONÁRIOS DE EMPRESAS PRIVADAS</h3>
               <p>Sem consulta ao SPC e Serasa, sem preocupações com boletos, faturas ou carnês. O desconto é automático. Segurança e tranquilidade para você!</p>
-              <a href="service-details.html" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+              <a href="#" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -352,8 +352,8 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>O que nossos clientes dizem</h2>
+        <p>Histórias de quem já confiou em nossos serviços e alcançou seus objetivos com facilidade e segurança</p>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -390,7 +390,7 @@
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                 <h3>Adriana Brito</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <!--<h4>Ceo &amp; Founder</h4>-->
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
@@ -405,14 +405,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <h3>Mari Oneide</h3>
+                <!--<h4>Designer</h4>-->
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <span>Gostei mto da agilidade do serviço...sem burocracia e está de parabéns em ajudar as pessoas assim como eu que precisa de credibilidade para adquirir conta em um banco novo e também parabenizar a atendente , Beatriz!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -421,14 +421,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <h3>Diego Fernandes</h3>
+                <!--<h4>Store Owner</h4>-->
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <span>Muito boa, sempre fui bem atendido e sempre cumpriram o proposto. De parabéns a consultora Claudia e também a consultora Edineide que me atendeu em momentos anteriores.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -437,14 +437,14 @@
             <div class="swiper-slide">
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <h3>Marly Florencio</h3>
+                <!--<h4>Freelancer</h4>-->
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <span>Achei excelente o atendimento. A consultora deu suporte em todo processo me deixando confiante no resultado. Recomendo.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -454,13 +454,13 @@
               <div class="testimonial-item">
                 <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
                 <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <!--<h4>Entrepreneur</h4>-->
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <span>Excelente atendimento, atendente muito atencioso, fiquei encantada com o serviço, só elogios , muito muito satisfeita, atendimento diferenciado.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -953,13 +953,15 @@
         <div class="row gx-lg-0 gy-4">
 
           <div class="col-lg-4">
-            <div class="info-container d-flex flex-column align-items-center justify-content-center">
+            <div class="info-container d-flex flex-column align-items-center justify-content-center" href="https://govam.consiglog.com.br/LoginSegundaEtapa.aspx">
+              
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h3>Loja Matriz</h3>
                   <p>R. Francisco Gonçalves, 1 - sala 306 - Comercio, Salvador - BA, 40015-070</p>
                 </div>
+        
               </div><!-- End Info Item -->
 
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
@@ -990,7 +992,7 @@
                 <i class="bi bi-clock flex-shrink-0"></i>
                 <div>
                   <h3>Horário:</h3>
-                  <p>Mon-Sat: 11AM - 23PM</p>
+                  <p>Seg-Sex: 08:30 - 17:00</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -1019,9 +1021,9 @@
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
+                  <div class="loading">Carregando</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div class="sent-message">Sua mensagem foi enviada! Em breve retornaremos com mais informações</div>
 
                   <button type="submit">Enviar Mensagem</button>
                 </div>

@@ -3,9 +3,9 @@
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
           <a href="index.html" class="logo d-flex align-items-center">
-            <span class="sitename">Impact</span>
+            <span class="sitename">Transforme suas finanças com a Maktub!</span>
           </a>
-          <p>Transforme suas finanças com a Maktub!</p>
+          <!--<p>Transforme suas finanças com a Maktub!</p>-->
           <div class="social-links d-flex mt-4">
           <a href="https://www.facebook.com/maktubpromotora/" target="_blank" class="facebook"><i class="bi bi-facebook"></i></a>
           <a href="https://www.instagram.com/maktub.promotora/" target="_blank" class="instagram"><i class="bi bi-instagram"></i></a>
@@ -16,7 +16,7 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Links Úteis</h4>
           <ul>
-            <li><a href="#home">Hero</a></li>
+            <li><a href="#hero">Home</a></li>
             <li><a href="#servicos">Serviços</a></li>
             <li><a href="#about">A Empresa</a></li>
             <li><a href="#services">Convênios</a></li>
@@ -50,11 +50,7 @@
     <div class="container copyright text-center mt-4">
       <p>© <span>Copyright</span> <strong class="px-1 sitename">Maktub Prestação de Serviços e Promotora de Vendas LTDA - </strong> <span>04.995.898/0001-36</span></p>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Desenvolvido por <a href="https://bootstrapmade.com/">LuzirSoftware</a>
+        Desenvolvido por <a href="#"><strong> LuzirSoftware</strong></a>
       </div>
     </div>
 
