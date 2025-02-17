@@ -952,7 +952,7 @@
 
         <div class="row gx-lg-0 gy-4">
 
-          <div class="col-lg-4">
+          <div class="col-lg-7">
             <div class="info-container d-flex flex-column align-items-center justify-content-center" href="https://govam.consiglog.com.br/LoginSegundaEtapa.aspx">
               
               <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
@@ -1000,25 +1000,25 @@
 
           </div>
 
-          <div class="col-lg-8">
+          <div class="col-lg-5">
             <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade" data-aos-delay="100">
               <div class="row gy-4">
 
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <input type="text" name="name" class="form-control" placeholder="Nome" required="">
                 </div>
 
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Email" required="">
+                <div class="col-md-12">
+                  <input type="text" name="cpf" class="form-control" placeholder="CPF" required="">
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                  <input type="text" class="form-control" name="E-mail" placeholder="E-mail" required="">
                 </div>
 
                 <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="8" placeholder="Messagem" required=""></textarea>
-                </div>
+                  <input type="text" class="form-control" name="Telefone" placeholder="l" required="">
+                </div>                
 
                 <div class="col-md-12 text-center">
                   <div class="loading">Carregando</div>
