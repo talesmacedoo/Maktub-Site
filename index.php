@@ -92,12 +92,12 @@
       <div class="container">
 
         <div class="row gy-4">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
             <h3>Com uma equipe treinada e experiente, a Maktub tem como objetivo resolver os problemas financeiros de seus Clientes através da escolha do melhor produto</h3>
             <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
             <p><strong> VISÃO:</strong> Consolidar a Maktub como referência em correspondência bancária no mercado de crédito consignado, superando metas e aprimorando a excelência no atendimento aos nossos Clientes, Fornecedores, Parceiros e Colaboradores.</p>
           </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+          <div class="col-lg-12" data-aos="fade-up" data-aos-delay="250">
             <div class="content ps-0 ps-lg-5">
               <p><strong> VALORES:</strong></p>
               <ul>
@@ -109,11 +109,13 @@
               <p>
                 <strong> MISSÃO:</strong> Oferecer a melhor solução financeira, com ética, responsabilidade e agilidade, contribuindo para a realização dos sonhos de nossos Clientes.
               </p>
-
+              <!--
               <div class="position-relative mt-4">
                 <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
                 <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
               </div>
+              -->
+
             </div>
           </div>
         </div>
@@ -1025,7 +1027,7 @@
                   <div class="error-message"></div>
                   <div class="sent-message">Sua mensagem foi enviada! Em breve retornaremos com mais informações</div>
 
-                  <button type="submit">Enviar Mensagem</button>
+                  <button type="submit">Solicitar Simulação</button>
                 </div>
 
               </div>
