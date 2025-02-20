@@ -216,3 +216,48 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+// JS para executar a validação do fomulário de contato
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+
+//receber o seletor do id
+var telefone = document.getElementById("telefone");
+
+telefone.addEventListener("input", () => {
+  var limparValor = telefone.value.replace(/\D/g, "").substring(0,11);
+
+  var numerosArray = limparValor.split("");
+
+  var numeroFormatado = ""; 
+
+  if(numerosArray.length > 0){
+    numeroFormatado += `(${numerosArray.slice(0,2).join("")})`;
+  }
+
+  if(numerosArray.length > 2){
+    numeroFormatado += ` ${numerosArray.slice(2,7).join("")}`;
+  }
+
+  if(numerosArray.length > 7){
+    numeroFormatado += `-${numerosArray.slice(7,11).join("")}`;
+  }
+
+  telefone.value = numeroFormatado;
+});

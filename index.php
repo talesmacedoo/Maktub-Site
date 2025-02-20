@@ -1003,23 +1003,31 @@
           </div>
 
           <div class="col-lg-5">
-            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade" data-aos-delay="100">
+            <form action="forms/contact.php" method="post" class="php-email-form needs-validation" novalidate>
               <div class="row gy-4">
 
                 <div class="col-md-12">
-                  <input type="text" name="name" class="form-control" placeholder="Nome" required="">
+                  <label for="validationCustom01" class="form-label">Nome</label>
+                  <input type="text" name="name" class="form-control" id="validationCustom01" required>
+                  <div class="invalid-feedback">Por favor, insira seu nome.</div>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" name="cpf" class="form-control" placeholder="CPF" required="">
+                  <label for="cpf" class="form-label">CPF</label>
+                  <input type="text" name="cpf" class="form-control" id="cpf" required>
+                  <div class="invalid-feedback">Por favor, insira um CPF válido.</div>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="E-mail" placeholder="E-mail" required="">
+                  <label for="email" class="form-label">E-mail</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                  <div class="invalid-feedback">Por favor, insira um e-mail válido.</div>
                 </div>
 
                 <div class="col-md-12">
-                  <input type="text" class="form-control" name="Telefone" placeholder="l" required="">
+                  <label for="telefone" class="form-label">Telefone</label>
+                  <input type="tel" class="form-control" name="telefone" id="telefone" required>
+                  <div class="invalid-feedback">Por favor, insira um telefone válido.</div>
                 </div>                
 
                 <div class="col-md-12 text-center">
@@ -1027,12 +1035,12 @@
                   <div class="error-message"></div>
                   <div class="sent-message">Sua mensagem foi enviada! Em breve retornaremos com mais informações</div>
 
-                  <button type="submit">Solicitar Simulação</button>
+                  <button type="submit" class="btn btn-primary">Solicitar Simulação</button>
                 </div>
 
               </div>
             </form>
-          </div><!-- End Contact Form -->
+          </div> <!-- End Contact Form -->
 
         </div>
 
