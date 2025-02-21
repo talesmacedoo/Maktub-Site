@@ -1014,7 +1014,7 @@
 
                 <div class="col-md-12">
                   <label for="cpf" class="form-label">CPF</label>
-                  <input type="text" name="cpf" class="form-control" id="cpf" required>
+                  <input type="text" name="cpf" class="form-control" id="cpf" maxlength="14" required>
                   <div class="invalid-feedback">Por favor, insira um CPF válido.</div>
                 </div>
 

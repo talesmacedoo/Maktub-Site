@@ -16,17 +16,17 @@
   <div class="container position-relative d-flex align-items-center justify-content-between">
     <a href="index.html" class="logo d-flex align-items-center">
       <!-- Uncomment the line below if you also wish to use an image logo -->
-      <img src="assets/img/logo.png" alt="logo maktub"> 
+      <img src="/maktub-site/assets/img/logo.png" alt="logo maktub"> 
       <!-- <h1 class="sitename">Maktub</h1> -->
       
     </a>
     
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="#hero" class="active">Home<br></a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#about">A Empresa</a></li>
-            <li><a href="#services">Convênios</a></li>
+            <li><a href="/maktub-site/#hero" class="active">Home<br></a></li>
+            <li><a href="/maktub-site/#servicos">Serviços</a></li>
+            <li><a href="/maktub-site/#about">A Empresa</a></li>
+            <li><a href="/maktub-site/#services">Convênios</a></li>
             <!--
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#team">Team</a></li>

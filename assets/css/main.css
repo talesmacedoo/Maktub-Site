@@ -82,7 +82,7 @@ body {
 
 a {
   color: var(--accent-color);
-  text-decoration: none;
+  text-decoration: none !important;
   transition: 0.3s;
 }
 
