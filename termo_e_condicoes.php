@@ -22,7 +22,7 @@
 
             <div class="container position-relative" data-aos="fade-up" data-aos-delay="10">
                 <div class="col-lg-12">
-                <img src="/maktub-site/assets/img/privacy-policy-pana.svg" alt="">
+                <img src="/maktub-site/assets/img/termos-e-condicoes.svg" alt="">
                 <div class="content text-center">
                     <h2>Termos e Condições</h2>
 
@@ -31,7 +31,7 @@
             </div>
         </section>
 
-        <section id="services" class="services section">
+        <section id="termo-e-condicoes" class="services section">
 
             <div class="container">
 
