@@ -244,6 +244,8 @@ h6 {
   background-color: var(--background-color);
 }
 
+
+
 .header .branding-topo {
   margin: 0;
   padding: 0;
@@ -2960,3 +2962,78 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 60%);
   font-size: 14px;
 }
+
+
+/*--------------------------------------------------------------
+# Top-section
+--------------------------------------------------------------*/
+
+
+.top-section {
+  background-color: transparent;
+}
+
+.top-section .container {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  clip-path: inset(0 round 15px);
+}
+
+.top-section .container img {
+  position: fixed;
+  top: 30px;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+
+
+
+.top-section .container:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+.top-section .container .content {
+  position: relative;
+  z-index: 3;
+  color: var(--default-color);
+}
+
+.top-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.top-section {
+  position: relative;
+  padding: 100px 0 60px; /* Ajuste do espaçamento superior para evitar sobreposição */
+  background-color: #f8f9fa; /* Cor de fundo (ajuste conforme necessário) */
+}
+
+.top-section img {
+  /*width: 100%;
+  max-height: 300px;  Ajuste para cortar um pouco a imagem *
+  object-fit: cover; / Mantém o foco no centro da imagem */
+  display: block;
+  margin: 0 auto;
+}
+
+/* Ajuste para garantir que o conteúdo do header não sobreponha */
+.header.fixed-top + .main {
+  padding-top: 80px; /* Ajuste conforme a altura real do seu header */
+}
+

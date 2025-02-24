@@ -15,7 +15,22 @@
         ?>
 
     </header>
-    <main>
+    <main class="main">
+        <section id="top-section" class="top-section section accent-background">
+            <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-12">
+                <img src="/maktub-site/assets/img/privacy-policy-pana.svg" alt="">
+                <div class="content text-center">
+                    <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox play-btn"></a>
+                    <h3>Your Top Section Call To Action</h3>
+
+                </div>
+                </div>
+            </div>
+        </section>
+
+
+
         <footer id="footer" class="footer accent-background">
             <?php
                 include '../footer.php'
