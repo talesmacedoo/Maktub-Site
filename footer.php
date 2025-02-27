@@ -21,6 +21,7 @@
             <li><a href="/maktub-site/#about">A Empresa</a></li>
             <li><a href="/maktub-site/#services">Convênios</a></li>
             <li><a href="/maktub-site/politica_de_privacidade.php">Política de Privacidade</a></li>
+            <li><a href="/maktub-site/termo_e_condicoes.php">Termos e Condições</a></li>
             <li><a href="#contact">Contato</a></li>
           </ul>
         </div>

@@ -243,9 +243,9 @@
 
       </div>
 
-    </section><!-- /Stats Section -->
+    </section><!-- /Stats Section ->
 
-    <!-- Call To Action Section -->
+    <-- Call To Action Section ->
     <section id="call-to-action" class="call-to-action section dark-background">
 
       <div class="container">
@@ -262,7 +262,7 @@
         </div>
       </div>
 
-    </section><!-- /Call To Action Section -->
+    </section><!- /Call To Action Section -->
 
     <!-- Services Section -->
     <section id="services" class="services section">
@@ -950,14 +950,14 @@
         <p>Preencha o formulário e entraremos em contato com você</p>
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container" >
 
         <div class="row gx-lg-0 gy-4">
 
           <div class="col-lg-7">
             <div class="info-container d-flex flex-column align-items-center justify-content-center" href="https://govam.consiglog.com.br/LoginSegundaEtapa.aspx">
               
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <div class="info-item d-flex"  >
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h3>Loja Matriz</h3>
@@ -966,7 +966,7 @@
         
               </div><!-- End Info Item -->
 
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+              <div class="info-item d-flex"  >
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h3>Loja Cajazeiras</h3>
@@ -974,7 +974,7 @@
                 </div>
               </div><!-- End Info Item -->
 
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <div class="info-item d-flex"  >
                 <i class="bi bi-telephone flex-shrink-0"></i>
                 <div>
                   <h3>Telefone</h3>
@@ -982,7 +982,7 @@
                 </div>
               </div><!-- End Info Item -->
 
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <div class="info-item d-flex"  >
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email</h3>
@@ -990,7 +990,7 @@
                 </div>
               </div><!-- End Info Item -->
 
-              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+              <div class="info-item d-flex"  >
                 <i class="bi bi-clock flex-shrink-0"></i>
                 <div>
                   <h3>Horário:</h3>
@@ -1006,36 +1006,37 @@
             <form action="forms/contact.php" method="post" class="php-email-form needs-validation" novalidate>
               <div class="row gy-4">
 
-                <div class="col-md-12">
+                <div class="form-item col-md-12">
                   <label for="validationCustom01" class="form-label">Nome</label>
                   <input type="text" name="name" class="form-control" id="validationCustom01" required>
                   <div class="invalid-feedback">Por favor, insira seu nome.</div>
                 </div>
 
-                <div class="col-md-12">
+                <div class="form-item col-md-12">
                   <label for="cpf" class="form-label">CPF</label>
                   <input type="text" name="cpf" class="form-control" id="cpf" maxlength="14" required>
                   <div class="invalid-feedback">Por favor, insira um CPF válido.</div>
                 </div>
 
-                <div class="col-md-12">
+                <div class="form-item col-md-12">
                   <label for="email" class="form-label">E-mail</label>
                   <input type="email" class="form-control" name="email" id="email" required>
                   <div class="invalid-feedback">Por favor, insira um e-mail válido.</div>
                 </div>
 
-                <div class="col-md-12">
+                <div class="form-item col-md-12">
                   <label for="telefone" class="form-label">Telefone</label>
                   <input type="tel" class="form-control" name="telefone" id="telefone" required>
                   <div class="invalid-feedback">Por favor, insira um telefone válido.</div>
                 </div>                
 
-                <div class="col-md-12 text-center">
+                <div class="form-item col-md-12 text-center">
                   <div class="loading">Carregando</div>
                   <div class="error-message"></div>
                   <div class="sent-message">Sua mensagem foi enviada! Em breve retornaremos com mais informações</div>
 
                   <button type="submit" class="btn btn-primary">Solicitar Simulação</button>
+                  <p>Ao continuar, você autoriza o tratamento de dados pela Maktub Promotora, a consulta de informações necessárias para a prestação de serviços e declara estar ciente e de acordo com a <a href="/maktub-site/politica_de_privacidade.php" target="_blank">Política de Privacidade</a> da Maktub Promotora.</p>
                 </div>
 
               </div>

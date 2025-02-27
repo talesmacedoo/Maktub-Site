@@ -1462,6 +1462,10 @@ section,
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
+.testimonials {
+  background-color: #f2e6d8;
+}
+
 .testimonials .testimonial-item {
   background-color: var(--surface-color);
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -2107,6 +2111,14 @@ section,
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
+}
+
+.contact .form-item p {
+  padding: 0;
+  color: #666666;
+  margin-bottom: 0;
+  font-size: 12px;
+  text-align: justify;
 }
 
 /*--------------------------------------------------------------
