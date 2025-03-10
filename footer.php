@@ -16,13 +16,13 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Links Úteis</h4>
           <ul>
-            <li><a href="/maktub-site/#hero">Home</a></li>
-            <li><a href="/maktub-site/#servicos">Serviços</a></li>
-            <li><a href="/maktub-site/#about">A Empresa</a></li>
-            <li><a href="/maktub-site/#services">Convênios</a></li>
-            <li><a href="/maktub-site/politica_de_privacidade.php">Política de Privacidade</a></li>
-            <li><a href="/maktub-site/termo_e_condicoes.php">Termos e Condições</a></li>
-            <li><a href="#contact">Contato</a></li>
+            <li><a href="./#hero">Home</a></li>
+            <li><a href="./#servicos">Serviços</a></li>
+            <li><a href="./#about">A Empresa</a></li>
+            <li><a href="./#services">Convênios</a></li>
+            <li><a href="./politica_de_privacidade.php">Política de Privacidade</a></li>
+            <li><a href="./termo_e_condicoes.php">Termos e Condições</a></li>
+            <li><a href="./#contact">Contato</a></li>
           </ul>
         </div>
 
