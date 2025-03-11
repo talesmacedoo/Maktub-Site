@@ -1,41 +1,57 @@
 <?php
-  /**
-  * Requires the "PHP Email Form" library
-  * The "PHP Email Form" library is available only in the pro version of the template
-  * The library should be uploaded to: vendor/php-email-form/php-email-form.php
-  * For more info and help: https://bootstrapmade.com/php-email-form/
-  */
+require '../includes/PHPMailer/src/PHPMailer.php';
+require '../includes/PHPMailer/src/SMTP.php';
+require '../includes/PHPMailer/src/Exception.php';
 
-  // Replace contact@example.com with your real receiving email address
-  $receiving_email_address = 'contact@example.com';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-  if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
-    include( $php_email_form );
-  } else {
-    die( 'Unable to load the "PHP Email Form" Library!');
-  }
+require_once __DIR__ . '/../vendor/autoload.php';
 
-  $contact = new PHP_Email_Form;
-  $contact->ajax = true;
-  
-  $contact->to = $receiving_email_address;
-  $contact->from_name = $_POST['name'];
-  $contact->from_email = $_POST['email'];
-  $contact->subject = $_POST['subject'];
+use Dotenv\Dotenv;
 
-  // Uncomment below code if you want to use SMTP to send emails. You need to enter your correct SMTP credentials
-  /*
-  $contact->smtp = array(
-    'host' => 'example.com',
-    'username' => 'example',
-    'password' => 'pass',
-    'port' => '587'
-  );
-  */
+$dotenv = Dotenv::createImmutable(__DIR__ . '/../'); 
+$dotenv->load();
 
-  $contact->add_message( $_POST['name'], 'From');
-  $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
 
-  echo $contact->send();
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    
+    $nome = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+    $cpf = preg_replace('/\D/', '', $_POST['cpf']); 
+    $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
+    $telefone = preg_replace('/\D/', '', $_POST['telefone']);     
+
+    
+    if (!$email) {
+        die("E-mail inválido!");
+    }
+
+    // Configuração do PHPMailer
+    $mail = new PHPMailer(true);
+
+
+    try {
+        // Configuração do servidor SMTP
+        $mail->isSMTP();
+        $mail->Host       = $_ENV['SMTP_HOST'];
+        $mail->SMTPAuth   = true;
+        $mail->Username   = $_ENV['SMTP_USER'];
+        $mail->Password   = $_ENV['SMTP_PASS'];
+        $mail->SMTPSecure = $_ENV['SMTP_SECURE'];
+        $mail->Port       = $_ENV['SMTP_PORT'];
+
+        // Configuração do e-mail
+        $mail->setFrom($_ENV['SMTP_USER'], 'Maktub Promotora'); 
+        $mail->addReplyTo($email, $nome); 
+        $mail->addAddress($_ENV['SMTP_USER']); 
+        $mail->Subject = 'Formulario de Contato - Solicitacao de Informacoes';
+        $mail->Body    = "Nome: $nome\nCPF: $cpf\nE-mail: $email\nTelefone: $telefone";
+
+        // Envia o e-mail
+        $mail->send();
+        echo 'E-mail enviado com sucesso!';
+    } catch (Exception $e) {
+        echo "Erro ao enviar o e-mail: {$mail->ErrorInfo}";
+    }
+}
 ?>
