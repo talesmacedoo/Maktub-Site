@@ -1020,20 +1020,39 @@
 
                 <div class="form-item col-md-12">
                   <label for="email" class="form-label">E-mail</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                  <input type="text" class="form-control" name="email" id="email" required>
                   <div class="invalid-feedback">Por favor, insira um e-mail válido.</div>
                 </div>
 
                 <div class="form-item col-md-12">
                   <label for="telefone" class="form-label">Telefone</label>
-                  <input type="tel" class="form-control" name="telefone" id="telefone" required>
+                  <input type="text" class="form-control" name="telefone" id="telefone" required>
                   <div class="invalid-feedback">Por favor, insira um telefone válido.</div>
                 </div>                
 
                 <div class="form-item col-md-12 text-center">
                   <div class="loading">Carregando</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Sua mensagem foi enviada! Em breve retornaremos com mais informações</div>
+                  <div class="sent-message">Sua solicitação foi enviada! Em breve retornaremos com mais informações</div>
+
+                  <!-- Modal de Confirmação -->
+                  <div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="successModalLabel">Solicitação Enviada!</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Seus dados foram enviados com sucesso! Em breve entraremos em contato.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-primary" id="reloadPage" data-bs-dismiss="modal">OK</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
 
                   <button type="submit" class="btn btn-primary">Solicitar Simulação</button>
                   <p>Ao continuar, você autoriza o tratamento de dados pela Maktub Promotora, a consulta de informações necessárias para a prestação de serviços e declara estar ciente e de acordo com a <a href="/maktub-site/politica_de_privacidade.php" target="_blank">Política de Privacidade</a> da Maktub Promotora.</p>
@@ -1066,7 +1085,7 @@
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="forms/php-email-form/validate.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
