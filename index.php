@@ -1055,7 +1055,7 @@
 
 
                   <button type="submit" class="btn btn-primary">Solicitar Simulação</button>
-                  <p>Ao continuar, você autoriza o tratamento de dados pela Maktub Promotora, a consulta de informações necessárias para a prestação de serviços e declara estar ciente e de acordo com a <a href="/maktub-site/politica_de_privacidade.php" target="_blank">Política de Privacidade</a> da Maktub Promotora.</p>
+                  <p>Ao continuar, você autoriza o tratamento de dados pela Maktub Promotora, a consulta de informações necessárias para a prestação de serviços e declara estar ciente e de acordo com a <a href="/maktub-site/politica-de-privacidade.php" target="_blank">Política de Privacidade</a> da Maktub Promotora.</p>
                 </div>
 
               </div>

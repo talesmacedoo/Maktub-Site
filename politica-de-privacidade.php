@@ -22,7 +22,7 @@
 
             <div class="container position-relative" data-aos="fade-up" data-aos-delay="10">
                 <div class="col-lg-12">
-                <img src="/maktub-site/assets/img/politica-de-privacidade.svg" alt="">
+                <img src="assets/img/politica-de-privacidade.svg" alt="">
                 <div class="content text-center">
                     <h2>Política de Privacidade</h2>
 

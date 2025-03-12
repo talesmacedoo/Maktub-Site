@@ -20,8 +20,8 @@
             <li><a href="./#servicos">Serviços</a></li>
             <li><a href="./#about">A Empresa</a></li>
             <li><a href="./#services">Convênios</a></li>
-            <li><a href="./politica_de_privacidade.php">Política de Privacidade</a></li>
-            <li><a href="./termo_e_condicoes.php">Termos e Condições</a></li>
+            <li><a href="./politica-de-privacidade.php">Política de Privacidade</a></li>
+            <li><a href="./termo-e-condicoes.php">Termos e Condições</a></li>
             <li><a href="./#contact">Contato</a></li>
           </ul>
         </div>
