@@ -16,7 +16,7 @@ $dotenv->load();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
-    $nome = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+    $nome = htmlspecialchars($_POST['name'], ENT_QUOTES, 'UTF-8');
     $cpf = preg_replace('/\D/', '', $_POST['cpf']); 
     $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
     $telefone = preg_replace('/\D/', '', $_POST['telefone']);     
