@@ -1,4 +1,5 @@
 
+
 <div class="container footer-top">
       <div class="row gy-4">
         <div class="col-lg-5 col-md-12 footer-about">
@@ -16,13 +17,13 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Links Úteis</h4>
           <ul>
-            <li><a href="./#hero">Home</a></li>
-            <li><a href="./#servicos">Serviços</a></li>
-            <li><a href="./#about">A Empresa</a></li>
-            <li><a href="./#services">Convênios</a></li>
-            <li><a href="./politica-de-privacidade.php">Política de Privacidade</a></li>
-            <li><a href="./termo-e-condicoes.php">Termos e Condições</a></li>
-            <li><a href="./#contact">Contato</a></li>
+            <li><a href="<?php echo BASE_URL; ?>#hero">Home</a></li>
+            <li><a href="<?php echo BASE_URL; ?>#servicos">Serviços</a></li>
+            <li><a href="<?php echo BASE_URL; ?>#about">A Empresa</a></li>
+            <li><a href="<?php echo BASE_URL; ?>#services">Convênios</a></li>
+            <li><a href="<?php echo BASE_URL; ?>politica-de-privacidade.php">Política de Privacidade</a></li>
+            <li><a href="<?php echo BASE_URL; ?>termo-e-condicoes.php">Termos e Condições</a></li>
+            <li><a href="<?php echo BASE_URL; ?>#contact">Contato</a></li>
           </ul>
         </div>
 
