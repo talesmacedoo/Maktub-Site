@@ -25,6 +25,7 @@
   /**
    * Mobile nav toggle
    */
+
   const mobileNavToggleBtn = document.querySelector('.mobile-nav-toggle');
 
   function mobileNavToogle() {

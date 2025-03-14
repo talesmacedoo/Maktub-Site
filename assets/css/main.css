@@ -22,7 +22,9 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #222222; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #172a28; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #AE883D; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color-maktub: #AE883D; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --light-blue-color-maktub: #ADD8E6; /* Azul claro utilizado para destacar elementos sutis e transmitir confiança e tranquilidade */
+  --pink-color-maktub: #FFC0CB; /* Rosa utilizado para elementos de destaque que evocam sensibilidade e modernidade */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -321,7 +323,7 @@ h6 {
 
 .header .logo img {
   max-height: 100%;
-  margin-right: 8px;
+  margin-right: 20px;
 }
 
 .header .logo h1 {
@@ -340,6 +342,72 @@ h6 {
 .scrolled .header {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
+
+/*
+.header .branding-topo-convenio a{
+  font-size: 12px;
+  min-height: 60px;
+  padding: 10px 0;
+}
+
+.header .branding-topo-convenio img{
+  margin-left: 2px;
+}
+
+.header .branding-topo-convenio {
+  --background-color: #00374c;
+  background-color: var(--background-color);
+}*/
+
+.branding-topo-convenio {
+  --background-color: #00374c;
+  background-color: var(--background-color);
+  padding: 10px 0;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px; /* Ajuste conforme necessário */
+}
+
+.branding-topo-convenio .logo {
+  display: flex;
+  align-items: center;
+  margin-left: 20px; /* Afasta a logo para a direita */
+}
+
+.branding-topo-convenio .logo img {
+  max-height: 100%;
+  margin-right: 20%;
+}
+
+.branding-topo-convenio .navtopo {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Espaço entre os elementos */
+}
+
+.branding-topo-convenio .btn-get-started {
+  color: var(--light-blue-color-maktub);
+  background: var(--light-blue-color-maktub);
+  font-family: var(--heading-font);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 14px 40px;
+  border-radius: 50px;
+  transition: 0.3s;
+  border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  background-color: color-mix(in srgb, var(--default-color), transparent 90%);
+}
+
+.branding-topo-convenio .btn-get-started:hover {
+  border-color: #AE883D;
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -1137,6 +1205,10 @@ section,
 .hero .icon-box:hover .title a,
 .hero .icon-box:hover .icon {
   color: var(--contrast-color);
+}
+
+.hero-convenios{
+  background-color: #C7D6D9;
 }
 
 /*--------------------------------------------------------------

@@ -9,17 +9,18 @@
 <body>
 
     <header id="header" class="header fixed-top">
-
+        
         <?php
-        include '../header.php';
+        include 'header-convenios.php';
         ?>
+        
 
     </header>
     <main class="main">
 
 
         <!-- Hero Section -->
-        <section id="hero" class="hero section accent-background">
+        <section id="hero" class="hero hero-convenios section accent-background">
 
             <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
                 <div class="row gy-5 justify-content-between">
@@ -28,7 +29,7 @@
                     <p>Crédito rápido, seguro e com as melhores taxas para quem recebe benefício do INSS.</p>
                     <div class="d-flex">
                     <a href="#about" class="btn-get-started">Saiba Mais</a>
-                    <!--<a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>-->
+                    
                     </div>
                 </div>
                 <div class="col-lg-7 order-1 order-lg-2">
