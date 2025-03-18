@@ -4,9 +4,8 @@
   </a>
 
   <div class="container position-relative d-flex align-items-end justify-content-between">
-    <nav id="navtopo" class="navtopo ms-auto">
+
         <a href="#about" class="btn-get-started">Saiba Mais</a>
-        <i class="mobile-nav-toggle disable"></i>
-    </nav>
+
   </div>
 </div>

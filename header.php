@@ -11,7 +11,7 @@
 </div>
 
 
-<div class="branding d-flex align-items-cente">
+<div class="branding d-flex align-items-center">
 
 
   <div class="container position-relative d-flex align-items-center justify-content-between">
