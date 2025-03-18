@@ -169,5 +169,42 @@
     window.addEventListener('load', navmenuScrollspy);
     document.addEventListener('scroll', navmenuScrollspy);
   
+    document.addEventListener("DOMContentLoaded", function () {
+      const headerConvenios = document.getElementById("header");
+      const secondSection = document.getElementById("faq");
+    
+      if (!headerConvenios) {
+        console.error("Elemento #header-convenios não encontrado!");
+        return;
+      }
+    
+      if (!secondSection) {
+        console.error("Elemento #faq não encontrado!");
+        return;
+      }
+    
+      console.log("Script carregado! Monitorando scroll...");
+    
+      window.addEventListener("scroll", function () {
+        const sectionPosition = secondSection.offsetTop; // Posição da segunda seção na página
+        const scrollPosition = window.scrollY;
+    
+        console.log(`Scroll Y: ${scrollPosition}, Posição FAQ: ${sectionPosition}`);
+    
+        if (scrollPosition >= sectionPosition) {
+          headerConvenios.classList.add("show"); // Adiciona a classe para mostrar o header
+          console.log("Adicionando classe 'show' ao header");
+        } else {
+          headerConvenios.classList.remove("show"); // Esconde o header se voltar para o topo
+          console.log("Removendo classe 'show' do header");
+        }
+      });
+    });
+    
+
+
   })();
+
+
+  
   

@@ -344,6 +344,21 @@ h6 {
   box-shadow: 0px 0 18px rgba(0, 0, 0, 0.1);
 }
 
+.header-convenios {
+  position: fixed;
+  top: -100px; /* Esconde o header acima da tela */
+  left: 0;
+  width: 100%;
+  background-color: #00374c;
+  transition: top 0.5s ease-in-out;
+  z-index: 1000;
+}
+
+/* O header desce quando a classe 'show' é adicionada */
+.header-convenios.show {
+  top: 0;
+}
+
 /*
 .header .branding-topo-convenio a{
   font-size: 12px;
@@ -1218,6 +1233,23 @@ section,
 
 .hero-convenios{
   background-color: #C7D6D9;
+  padding: 60px 0 0 0
+}
+
+.hero-convenios h2, 
+.hero-convenios p {
+  color: var(--background-color);
+}
+
+.hero-convenios .btn-get-started {
+  color: var(--contrast-color);
+  background: var(--background-color);
+  border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  /*background-color: color-mix(in srgb, var(--default-color), transparent 90%);*/
+}
+
+.hero-convenios .btn-get-started:hover {
+  border-color: var(--accent-color-maktub);
 }
 
 /*--------------------------------------------------------------

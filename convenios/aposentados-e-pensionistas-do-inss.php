@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    <header id="header" class="header fixed-top">
+    <header id="header" class="header header-convenios ">
         
         <?php
         include 'header-convenios.php';
