@@ -186,17 +186,14 @@
       console.log("Script carregado! Monitorando scroll...");
     
       window.addEventListener("scroll", function () {
-        const sectionPosition = secondSection.offsetTop; // Posição da segunda seção na página
+        //Mostrar o header a partir da segunda seção
+        const sectionPosition = secondSection.offsetTop; 
         const scrollPosition = window.scrollY;
     
-        console.log(`Scroll Y: ${scrollPosition}, Posição FAQ: ${sectionPosition}`);
-    
         if (scrollPosition >= sectionPosition) {
-          headerConvenios.classList.add("show"); // Adiciona a classe para mostrar o header
-          console.log("Adicionando classe 'show' ao header");
+          headerConvenios.classList.add("show"); //Adiciona a classe para mostrar o header
         } else {
-          headerConvenios.classList.remove("show"); // Esconde o header se voltar para o topo
-          console.log("Removendo classe 'show' do header");
+          headerConvenios.classList.remove("show"); //Esconde o header se voltar para o topo
         }
       });
     });

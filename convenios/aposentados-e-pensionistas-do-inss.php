@@ -42,6 +42,90 @@
 
         </section><!-- /Hero Section -->
 
+        <!-- Beneficios Section -->
+        <section id="beneficios" class="beneficios section">
+
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Por que escolher a Maktub como sua parceira?</h2>
+            <p>A Maktub Promotora é a escolha ideal para quem busca segurança, agilidade e as melhores condições em crédito consignado.</p>
+        </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="beneficios-item  position-relative">
+                    <div class="icon">
+                        <i class="bi bi-activity"></i>
+                    </div>
+                    <h4>Solicitação Ágil e 100% Digital</h4>
+                    <p>Faça sua solicitação de forma simples e sem burocracia, totalmente online, usando sua CTPS digital para agilizar o processo.</p>
+        
+                    </div>
+                </div><!-- End Beneficios Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="beneficios-item position-relative">
+                    <div class="icon">
+                        <i class="bi bi-broadcast"></i>
+                    </div>
+                    <h4>Taxas de Juros Reduzidas</h4>
+                    <p>Aproveite condições diferenciadas com juros menores, graças ao desconto direto na folha de pagamento.</p>
+        
+                    </div>
+                </div><!-- End Beneficios Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="beneficios-item position-relative">
+                    <div class="icon">
+                        <i class="bi bi-easel"></i>
+                    </div>
+                    <h4>Prazos Flexíveis</h4>
+                    <p>Escolha o número de parcelas que melhor se encaixa no seu orçamento, com prazos longos que facilitam o planejamento financeiro.</p>
+        
+                    </div>
+                </div><!-- End Beneficios Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="beneficios-item position-relative">
+                    <div class="icon">
+                        <i class="bi bi-bounding-box-circles"></i>
+                    </div>
+                    <h4>Dinheiro Rápido na Conta</h4>
+                    <p>Receba o crédito de forma ágil – seu dinheiro pode estar disponível em até 48 horas, sem necessidade de avalista.</p>
+        
+                    </div>
+                </div><!-- End Beneficios Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+                    <div class="beneficios-item position-relative">
+                    <div class="icon">
+                        <i class="bi bi-calendar4-week"></i>
+                    </div>
+                    <h4>Atendimento Humanizado</h4>
+                    <p>Conte com um suporte dedicado que acompanha você em cada etapa, garantindo segurança e tranquilidade em sua jornada financeira.</p>
+        
+                    </div>
+                </div><!-- End Beneficios Item -->
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+                    <div class="beneficios-item position-relative">
+                    <div class="icon">
+                        <i class="bi bi-chat-square-text"></i>
+                    </div>
+                    <h4>Programa Indique e Ganhe</h4>
+                    <p>Indique amigos e desfrute de benefícios exclusivos: mais vantagens para você e para quem você indicar.</p>
+        
+                    </div>
+                </div><!-- End Beneficios Item -->
+
+                </div>
+
+            </div>
+
+        </section><!-- /Beneficios Section -->
 
         <!-- Faq Section -->
         <section id="faq" class="faq section">
@@ -120,6 +204,24 @@
         </section><!-- /Faq Section -->
 
 
+        <script>
+            window.chatwootSettings = {"position":"right","type":"standard","launcherTitle":"Fale conosco no chat"};
+            (function(d,t) {
+                var BASE_URL="https://app.luzirsoftware.com.br";
+                var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+                g.src=BASE_URL+"/packs/js/sdk.js";
+                g.defer = true;
+                g.async = true;
+                s.parentNode.insertBefore(g,s);
+                g.onload=function(){
+                window.chatwootSDK.run({
+                    websiteToken: 'qs7DQDK2BtuL3ekh1X3iH7jm',
+                    baseUrl: BASE_URL
+                })
+                }
+            })(document,"script");
+        </script>
+    
         <footer id="footer" class="footer accent-background">
             <?php
                 include '../footer.php'

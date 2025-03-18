@@ -42,41 +42,41 @@
 
       <section id="servicos" >
 
-      <div class="icon-boxes position-relative" data-aos="fade-up" data-aos-delay="200">
-        <div class="container position-relative">
-          <div class="row gy-4 mt-5">
+        <div class="icon-boxes position-relative" data-aos="fade-up" data-aos-delay="200">
+          <div class="container position-relative">
+            <div class="row gy-4 mt-5">
 
-            <div class="col-xl-3 col-md-6">
-              <div class="icon-box">
-                <div class="icon"><i class="bi bi-piggy-bank-fill"></i></div>
-                <h4 class="title"><a href="" class="stretched-link">CRÉDITO COM GARANTIA DO FGTS.</a></h4>
-              </div>
-            </div><!--End Icon Box -->
+              <div class="col-xl-3 col-md-6">
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-piggy-bank-fill"></i></div>
+                  <h4 class="title"><a href="" class="stretched-link">CRÉDITO COM GARANTIA DO FGTS.</a></h4>
+                </div>
+              </div><!--End Icon Box -->
 
-            <div class="col-xl-3 col-md-6">
-              <div class="icon-box">
-                <div class="icon"><i class="bi bi-person-walking"></i></div>
-                <h4 class="title"><a href="" class="stretched-link">PORTABILIDADE</a></h4>
-              </div>
-            </div><!--End Icon Box -->
+              <div class="col-xl-3 col-md-6">
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-person-walking"></i></div>
+                  <h4 class="title"><a href="" class="stretched-link">PORTABILIDADE</a></h4>
+                </div>
+              </div><!--End Icon Box -->
 
-            <div class="col-xl-3 col-md-6">
-              <div class="icon-box">
-                <div class="icon"><i class="bi bi-cash-coin"></i></div>
-                <h4 class="title"><a href="" class="stretched-link">CRÉDITO CONSIGNADO</a></h4>
-              </div>
-            </div><!--End Icon Box -->
+              <div class="col-xl-3 col-md-6">
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-cash-coin"></i></div>
+                  <h4 class="title"><a href="" class="stretched-link">CRÉDITO CONSIGNADO</a></h4>
+                </div>
+              </div><!--End Icon Box -->
 
-            <div class="col-xl-3 col-md-6">
-              <div class="icon-box">
-                <div class="icon"><i class="bi bi-credit-card"></i></div>
-                <h4 class="title"><a href="" class="stretched-link">CARTÃO DE CRÉDITO CONSIGNADO</a></h4>
-              </div>
-            </div><!--End Icon Box -->
+              <div class="col-xl-3 col-md-6">
+                <div class="icon-box">
+                  <div class="icon"><i class="bi bi-credit-card"></i></div>
+                  <h4 class="title"><a href="" class="stretched-link">CARTÃO DE CRÉDITO CONSIGNADO</a></h4>
+                </div>
+              </div><!--End Icon Box -->
 
+            </div>
           </div>
         </div>
-      </div>
       </section>
     </section><!-- /Hero Section -->
 
