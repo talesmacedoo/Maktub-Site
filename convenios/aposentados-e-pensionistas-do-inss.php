@@ -22,9 +22,9 @@
         <!-- Hero Section -->
         <section id="hero" class="hero hero-convenios section accent-background">
 
-            <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+            <div class="container position-relative"  data-aos-delay="100">
                 <div class="row gy-5 justify-content-between">
-                <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-right">
                     <h2><span>Empréstimo Consignado para Aposentados e Pensionistas do <strong>INSS</strong></span></h2>
                     <p>Crédito rápido, seguro e com as melhores taxas para quem recebe benefício do INSS.</p>
                     <div class="d-flex">
@@ -32,21 +32,21 @@
                     
                     </div>
                 </div>
-                <div class="col-lg-7 order-1 order-lg-2">
+                <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
                     <img src="<?php echo BASE_URL; ?>assets/img/convenios/aposentados-e-pensionistas.svg" class="img-fluid" alt="">
                 </div>
                 </div>
             </div>
 
-
-
+            <div class="seta-convenios">
+                    <img src="<?php echo BASE_URL; ?>assets/img/convenios/seta-convenios.svg"  alt="">
+            </div>
         </section><!-- /Hero Section -->
 
         <!-- Beneficios Section -->
         <section id="beneficios" class="beneficios section">
-
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
+            <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-left">
             <h2>Por que escolher a Maktub como sua parceira?</h2>
             <!-- <p>A Maktub Promotora é a escolha ideal para quem busca segurança, agilidade e as melhores condições em crédito consignado.</p> -->
         </div><!-- End Section Title -->
@@ -204,6 +204,7 @@
         </section><!-- /Faq Section -->
 
 
+        
         <script>
             window.chatwootSettings = {"position":"right","type":"standard","launcherTitle":"Fale conosco no chat"};
             (function(d,t) {

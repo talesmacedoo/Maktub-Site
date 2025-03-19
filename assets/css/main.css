@@ -1253,6 +1253,19 @@ section,
   border-color: var(--accent-color-maktub);
 }
 
+.seta-convenios{
+  background-color: var(--nav-color);
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+}
+
+.seta-convenios img {
+  width: 100px; 
+  height: auto; 
+  margin-top: 0;
+}
+
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
@@ -3247,4 +3260,6 @@ section,
 .header.fixed-top + .main {
   padding-top: 80px; /* Ajuste conforme a altura real do seu header */
 }
+
+
 
