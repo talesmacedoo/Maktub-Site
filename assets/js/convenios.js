@@ -170,23 +170,20 @@
     document.addEventListener('scroll', navmenuScrollspy);
   
     document.addEventListener("DOMContentLoaded", function () {
+      //Mostrar o header a partir da segunda seção
       const headerConvenios = document.getElementById("header");
-      const secondSection = document.getElementById("faq");
+      const secondSection = document.getElementById("beneficios");
     
       if (!headerConvenios) {
-        console.error("Elemento #header-convenios não encontrado!");
+
         return;
       }
     
       if (!secondSection) {
-        console.error("Elemento #faq não encontrado!");
         return;
       }
-    
-      console.log("Script carregado! Monitorando scroll...");
-    
       window.addEventListener("scroll", function () {
-        //Mostrar o header a partir da segunda seção
+
         const sectionPosition = secondSection.offsetTop; 
         const scrollPosition = window.scrollY;
     

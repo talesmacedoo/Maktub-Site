@@ -48,7 +48,7 @@
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
             <h2>Por que escolher a Maktub como sua parceira?</h2>
-            <p>A Maktub Promotora é a escolha ideal para quem busca segurança, agilidade e as melhores condições em crédito consignado.</p>
+            <!-- <p>A Maktub Promotora é a escolha ideal para quem busca segurança, agilidade e as melhores condições em crédito consignado.</p> -->
         </div><!-- End Section Title -->
 
             <div class="container">
@@ -58,10 +58,10 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
                     <div class="beneficios-item  position-relative">
                     <div class="icon">
-                        <i class="bi bi-activity"></i>
+                        <i class="bi bi-laptop"></i>
                     </div>
-                    <h4>Solicitação Ágil e 100% Digital</h4>
-                    <p>Faça sua solicitação de forma simples e sem burocracia, totalmente online, usando sua CTPS digital para agilizar o processo.</p>
+                    <h4>100% Digital</h4>
+                    <p>Faça sua solicitação de forma simples e sem burocracia, totalmente online.</p>
         
                     </div>
                 </div><!-- End Beneficios Item -->
@@ -69,7 +69,7 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
                     <div class="beneficios-item position-relative">
                     <div class="icon">
-                        <i class="bi bi-broadcast"></i>
+                        <i class="bi bi-percent"></i>
                     </div>
                     <h4>Taxas de Juros Reduzidas</h4>
                     <p>Aproveite condições diferenciadas com juros menores, graças ao desconto direto na folha de pagamento.</p>
@@ -80,10 +80,10 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
                     <div class="beneficios-item position-relative">
                     <div class="icon">
-                        <i class="bi bi-easel"></i>
+                        <i class="bi bi-calendar3"></i>
                     </div>
                     <h4>Prazos Flexíveis</h4>
-                    <p>Escolha o número de parcelas que melhor se encaixa no seu orçamento, com prazos longos que facilitam o planejamento financeiro.</p>
+                    <p>Escolha o número de parcelas que melhor se encaixa no seu orçamento.</p>
         
                     </div>
                 </div><!-- End Beneficios Item -->
@@ -91,10 +91,10 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
                     <div class="beneficios-item position-relative">
                     <div class="icon">
-                        <i class="bi bi-bounding-box-circles"></i>
+                        <i class="bi bi-cash-coin"></i>
                     </div>
                     <h4>Dinheiro Rápido na Conta</h4>
-                    <p>Receba o crédito de forma ágil – seu dinheiro pode estar disponível em até 48 horas, sem necessidade de avalista.</p>
+                    <p>Receba o crédito de forma ágil – seu dinheiro pode estar disponível em até 48 horas.</p>
         
                     </div>
                 </div><!-- End Beneficios Item -->
@@ -113,7 +113,7 @@
                 <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
                     <div class="beneficios-item position-relative">
                     <div class="icon">
-                        <i class="bi bi-chat-square-text"></i>
+                        <i class="bi bi-person-plus"></i>
                     </div>
                     <h4>Programa Indique e Ganhe</h4>
                     <p>Indique amigos e desfrute de benefícios exclusivos: mais vantagens para você e para quem você indicar.</p>
@@ -128,7 +128,7 @@
         </section><!-- /Beneficios Section -->
 
         <!-- Faq Section -->
-        <section id="faq" class="faq section">
+        <section id="faq" class="faq faq-convenios section">
 
             <div class="container">
 

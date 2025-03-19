@@ -25,6 +25,7 @@
   --accent-color-maktub: #AE883D; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --light-blue-color-maktub: #ADD8E6; /* Azul claro utilizado para destacar elementos sutis e transmitir confiança e tranquilidade */
   --pink-color-maktub: #FFC0CB; /* Rosa utilizado para elementos de destaque que evocam sensibilidade e modernidade */
+  --light-beige-maktub: #f2e6d8; /* Light beige color used for subtle backgrounds or accents */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -1576,7 +1577,7 @@ section,
 # Testimonials Section
 --------------------------------------------------------------*/
 .testimonials {
-  background-color: #f2e6d8;
+  background-color: var(--light-beige-maktub);
 }
 
 .testimonials .testimonial-item {
@@ -2069,6 +2070,10 @@ section,
   color: var(--accent-color);
 }
 
+.faq-convenios{
+  background-color: var(--light-beige-maktub);
+}
+
 /*--------------------------------------------------------------
 # Recent Posts Section
 --------------------------------------------------------------*/
@@ -2481,6 +2486,87 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+
+/*--------------------------------------------------------------
+# Beneficios Section
+--------------------------------------------------------------*/
+.beneficios .beneficios-item {
+  /*background-color: var(--surface-color);*/
+  /*padding: 15px;*/
+  /*box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);*/
+  /*height: 100%;*/
+  display: flex;
+  flex-direction: column; /* Organiza os elementos verticalmente */
+  align-items: center; /* Centraliza horizontalmente */
+  text-align: center;
+
+}
+
+.beneficios .beneficios-item .icon {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  margin-bottom: 50px;
+  
+}
+
+.beneficios .beneficios-item .icon i {
+  color: color-mix(in srgb, var(--heading-color), transparent 30%);
+  font-size: 36px;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+  position: relative;
+  
+}
+
+.beneficios .beneficios-item .icon:before {
+  position: absolute;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: color-mix(in srgb, var(--heading-color), transparent 95%);
+  border-radius: 50px;
+  z-index: 1;
+  top: 10px;
+  right: -20px;
+  transition: 0.3s;
+}
+
+.beneficios .beneficios-item h4 {
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  font-weight: 700;
+  /*margin: 0 0 20px 0;*/
+  padding-bottom: 8px;
+  font-size: 22px;
+  position: relative;
+  display: inline-block;
+  /*border-bottom: 4px solid color-mix(in srgb, var(--heading-color), transparent 90%);*/
+  transition: 0.3s;
+}
+
+.beneficios .beneficios-item p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+
+.beneficios .beneficios-item:hover .icon i {
+  color: var(--accent-color-maktub);
+}
+
+.beneficios .beneficios-item:hover .icon:before {
+  background: color-mix(in srgb, var(--accent-color), transparent 50%);
+}
+
+.beneficios .beneficios-item:hover h4 {
+  border-color: color-mix(in srgb, var(--accent-color), transparent 10%);
+  color: var(--accent-color-maktub);
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Blog Posts Section
