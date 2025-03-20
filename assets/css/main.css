@@ -26,6 +26,7 @@
   --light-blue-color-maktub: #ADD8E6; /* Azul claro utilizado para destacar elementos sutis e transmitir confiança e tranquilidade */
   --pink-color-maktub: #FFC0CB; /* Rosa utilizado para elementos de destaque que evocam sensibilidade e modernidade */
   --light-beige-maktub: #f2e6d8; /* Light beige color used for subtle backgrounds or accents */
+  --blue-color-maktub: #00374c;
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -1107,7 +1108,7 @@ section,
 }
 
 .hero h2 .accent {
-  color: var(--conrast-color);
+  color: var(--contrast-color);
 }
 
 .hero p {
@@ -1116,10 +1117,87 @@ section,
   margin-bottom: 30px;
 }
 
-.hero strong {
-  color: #ae883d
+
+
+.hero .texto-digitado {
+  position: relative;
+  display: inline-block;
+  color: var(--accent-color-maktub); 
 }
 
+.hero .texto-digitado::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  height: 100%;
+  width: 2px;
+  background-color: #fff; 
+  animation: blink 0.7s steps(2) infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+/*.hero strong {
+  position: relative;
+}
+
+.hero strong::before{
+  content: "";
+  color: var(--accent-color-maktub);
+  animation: palavras-titulo 20s infinite;
+}
+
+.hero strong::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  border-left: 2px solid var(--accent-color-maktub);
+  right: -10px;
+  animation: cursor .8s infinite, cursor-digita 24.4s steps(15) infinite;
+  width: calc(100% + 12px);
+  background-color: var(--blue-color-maktub);
+}
+
+@keyframes cursor-digita {
+  0%, 5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+    width: calc(100% + 12px);    
+  }
+  10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+    width: 0;
+
+  }
+}
+
+@keyframes cursor {
+  0%{
+    border-left: 2px solid var(--blue-color-maktub);
+  }
+  
+}
+
+@keyframes palavras-titulo{
+    0%,25%{
+      content: "a Maktub!";
+    }
+    26%,50%{
+      content: "e Maktub!";
+    }
+    51%,75%{
+      content: "i Maktub!";
+    }
+    76%,100%{
+      content: "o Maktub!";
+    }
+}
+*/
 .hero .btn-get-started {
   color: var(--contrast-color);
   background: var(--accent-color);
@@ -1240,6 +1318,10 @@ section,
 .hero-convenios h2, 
 .hero-convenios p {
   color: var(--background-color);
+}
+
+.hero-convenios span {
+  color: var(--accent-color-maktub);
 }
 
 .hero-convenios .btn-get-started {
@@ -2148,7 +2230,7 @@ section,
 # Contact Section
 --------------------------------------------------------------*/
 .contact .info-container {
-  background-color: var(--accent-color);
+  background-color: var(--accent-color-maktub);
   height: 100%;
   padding: 20px;
 }
@@ -2233,7 +2315,7 @@ section,
 
 .contact .php-email-form button[type=submit] {
   color: var(--contrast-color);
-  background: var(--accent-color);
+  background: var(--accent-color-maktub);
   border: 0;
   padding: 10px 30px;
   transition: 0.4s;

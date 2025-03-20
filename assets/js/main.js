@@ -281,3 +281,38 @@ cpf.addEventListener('keypress', () => {
 
 
 })
+
+
+const textElement = document.querySelector(".texto-digitado");
+const words = ["Segurança", "Rapidez", "a Maktub!"];
+let wordIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+
+function typeEffect() {
+  const currentWord = words[wordIndex];
+
+  if (isDeleting) {
+    textElement.textContent = currentWord.substring(0, charIndex);
+    charIndex--;
+  } else {
+    textElement.textContent = currentWord.substring(0, charIndex);
+    charIndex++;
+  }
+
+  let typingSpeed = isDeleting ? 100 : 150; 
+
+  if (!isDeleting && charIndex > currentWord.length) { 
+    typingSpeed = 2500; // Espera 2s antes de apagar
+    isDeleting = true;
+    charIndex = currentWord.length; 
+  } else if (isDeleting && charIndex < 0) { 
+    isDeleting = false;
+    wordIndex = (wordIndex + 1) % words.length; 
+    charIndex = 0; 
+  }
+
+  setTimeout(typeEffect, typingSpeed);
+}
+
+typeEffect();

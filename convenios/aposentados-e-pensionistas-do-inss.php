@@ -25,7 +25,7 @@
             <div class="container position-relative"  data-aos-delay="100">
                 <div class="row gy-5 justify-content-between">
                 <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-right">
-                    <h2><span>Empréstimo Consignado para Aposentados e Pensionistas do <strong>INSS</strong></span></h2>
+                    <h2>Empréstimo Consignado para Aposentados e Pensionistas do <span>INSS</span></h2>
                     <p>Crédito rápido, seguro e com as melhores taxas para quem recebe benefício do INSS.</p>
                     <div class="d-flex">
                     <a href="#about" class="btn-get-started">Saiba Mais</a>

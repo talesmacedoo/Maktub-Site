@@ -26,7 +26,10 @@
       <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
         <div class="row gy-5 justify-content-between">
           <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h2><span>Transforme suas finanças com a <strong>Maktub!</strong></span></h2>
+          <h2>
+            <span class="texto-fixo">Transforme suas finanças com</span> 
+            <strong><span class="texto-digitado">a Maktub</span></strong>
+          </h2>            
             <p>Sua parceira financeira desde 2002.</p>
             <div class="d-flex">
               <a href="#about" class="btn-get-started">Saiba Mais</a>
