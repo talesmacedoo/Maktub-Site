@@ -166,13 +166,14 @@
         }
       });
     }
+    /*
     window.addEventListener('load', navmenuScrollspy);
     document.addEventListener('scroll', navmenuScrollspy);
   
     document.addEventListener("DOMContentLoaded", function () {
       //Mostrar o header a partir da segunda seção
       const headerConvenios = document.getElementById("header");
-      const secondSection = document.getElementById("beneficios");
+      const secondSection = document.getElementById("steps");
     
       if (!headerConvenios) {
 
@@ -191,6 +192,25 @@
           headerConvenios.classList.add("show"); //Adiciona a classe para mostrar o header
         } else {
           headerConvenios.classList.remove("show"); //Esconde o header se voltar para o topo
+        }
+      });
+    });*/
+    document.addEventListener("DOMContentLoaded", function () {
+      const headerConvenios = document.getElementById("header");
+      const firstSection = document.querySelector("section"); // Pega a primeira seção da página
+    
+      if (!headerConvenios || !firstSection) {
+        return;
+      }
+    
+      window.addEventListener("scroll", function () {
+        const sectionBottom = firstSection.offsetTop + firstSection.offsetHeight;
+        const scrollPosition = window.scrollY;
+    
+        if (scrollPosition >= sectionBottom) {
+          headerConvenios.classList.add("show"); // Exibe o header se não estiver na primeira seção
+        } else {
+          headerConvenios.classList.remove("show"); // Esconde o header se estiver na primeira seção
         }
       });
     });

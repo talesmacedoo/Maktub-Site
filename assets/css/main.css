@@ -29,6 +29,7 @@
   --blue-color-maktub: #00374c;
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --disable-color: #5E6772;
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
@@ -246,6 +247,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   background-color: var(--background-color);
+  
 }
 
 
@@ -378,10 +380,9 @@ h6 {
 }*/
 
 .branding-topo-convenio {
-  --background-color: #00374c;
-  background-color: var(--background-color);
-  min-height: 60px;
-  padding: 10px 0;
+  background-color: var(--blue-color-maktub);
+  height: 80px;
+  /*padding: 10px 0;*/
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -2165,9 +2166,7 @@ section,
   color: var(--accent-color);
 }
 
-.faq-convenios{
-  background-color: var(--light-beige-maktub);
-}
+
 
 /*--------------------------------------------------------------
 # Recent Posts Section
@@ -2400,6 +2399,85 @@ section,
   color: var(--accent-color);
 }
 
+
+/*--------------------------------------------------------------
+# Steps Section
+--------------------------------------------------------------*/
+.steps .section-title {
+  margin-bottom: 10px; 
+  margin-top: 20px;
+  padding-bottom: 0;
+  text-align: center; 
+}
+
+.steps .section-title h2 {
+  margin: 0; 
+  padding: 10;
+
+}
+
+
+.steps .steps-container {
+  height: 100%;
+
+}
+
+.steps .steps-item {
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.steps .steps-item:last-child {
+  margin-bottom: 0;
+}
+
+.steps .steps-item i {
+  font-size: 50px;
+  color: var(--disable-color);
+  background-color: color-mix(in srgb, var(--accent-color-maktub), transparent 80%);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 15px;
+}
+
+.steps .steps-item a {
+  color: var(--disable-color);
+  font-size: 20px;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  position: relative;
+  display: inline-block;
+  border-bottom: 4px solid color-mix(in srgb, var(--heading-color), transparent 90%);
+  transition: 0.3s;
+}
+
+.steps .steps-item p {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.steps .steps-item:hover i {
+  background: var(--accent-color-maktub);
+  color: var(--accent-color);
+}
+
+.steps .steps-item:hover a {
+  color: var(--accent-color-maktub);
+  border-color: color-mix(in srgb, var(--default-color), transparent 50%);
+}
+
+.steps .steps-item:hover{
+  background-color: color-mix(in srgb, var(--accent-color-maktub), transparent 80%);
+}
+
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
@@ -2586,6 +2664,10 @@ section,
 /*--------------------------------------------------------------
 # Beneficios Section
 --------------------------------------------------------------*/
+.beneficios{
+  background-color: var(--light-beige-maktub);
+}
+
 .beneficios .beneficios-item {
   /*background-color: var(--surface-color);*/
   /*padding: 15px;*/

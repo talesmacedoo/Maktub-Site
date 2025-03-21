@@ -38,10 +38,71 @@
                 </div>
             </div>
 
-            <div class="seta-convenios">
-                    <img src="<?php echo BASE_URL; ?>assets/img/convenios/seta-convenios.svg"  alt="">
-            </div>
+
         </section><!-- /Hero Section -->
+
+        <div class="seta-convenios">
+                    <img src="<?php echo BASE_URL; ?>assets/img/convenios/seta-convenios.svg"  alt="">
+        </div>
+        <!-- Steps Section -->
+        <section id="steps" class="steps section">
+            <div class="container section-title" data-aos="fade-left">
+                <h2>Como solicitar um orçamento?</h2>
+            </div><!-- End Section Title -->
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+
+
+                    <div class="col-lg-6 " data-aos="fade-left">
+                        <img src="<?php echo BASE_URL; ?>assets/img/convenios/informe-seus-dados.svg" class="img-fluid" alt="">
+                    </div>
+
+
+                    <div class="col-lg-6">
+                        <div class="steps-container d-flex flex-column align-items-center justify-content-center" href="https://govam.consiglog.com.br/LoginSegundaEtapa.aspx">
+                        
+                            <div class="steps-item d-flex align-items-center">
+                                <div class="icon flex-shrink-0"><i class="bi bi-1-circle"></i></div>
+                                <div>
+                                    <h4 ><a  class="">Informe seus dados</a></h4>
+                                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                                </div>
+                            </div>
+
+                            <div class="steps-item d-flex align-items-center">
+                                <div class="icon flex-shrink-0"><i class="bi bi-2-circle"></i></div>
+                                <div>
+                                    <h4 class="title"><a href="" class="stretched-link">Escolha a melhor oferta</a></h4>
+                                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                                </div>
+                            </div>
+
+                            <div class="steps-item d-flex align-items-center">
+                                <div class="icon flex-shrink-0"><i class="bi bi-3-circle"></i></div>
+                                <div>
+                                    <h4 class="title"><a href="" class="stretched-link">Formalização eletrônica</a></h4>
+                                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                                </div>
+                            </div>
+
+                            <div class="steps-item d-flex align-items-center">
+                                <div class="icon flex-shrink-0"><i class="bi bi-4-circle"></i></div>
+                                <div>
+                                    <h4 class="title"><a href="" class="stretched-link">Dinheiro na conta</a></h4>
+                                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+            </div>
+
+        </section><!-- /Steps Section -->
 
         <!-- Beneficios Section -->
         <section id="beneficios" class="beneficios section">
