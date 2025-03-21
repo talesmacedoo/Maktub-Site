@@ -215,9 +215,44 @@
       });
     });
     
-
+    document.addEventListener('DOMContentLoaded', function () {
+      const steps = document.querySelectorAll('.steps-item');
+      const carousel = document.querySelector('#carouselImages');
+      if (!carousel || steps.length === 0) return;
+  
+      const bsCarousel = new bootstrap.Carousel(carousel, {
+          interval: false,
+          wrap: false
+      });
+  
+      let slideTimer = null;
+      let currentIndex = 0;
+  
+      steps.forEach((step, index) => {
+          step.addEventListener('mouseenter', function () {
+              
+              if (slideTimer) {
+                  clearTimeout(slideTimer);
+              }
+             
+              slideTimer = setTimeout(() => {
+                  if (index !== currentIndex) {
+                      bsCarousel.to(index);
+                      currentIndex = index;
+                  }
+              }, 200); 
+          });
+      });
+    });
+  
+  
+  
+  
 
   })();
+
+
+
 
 
   

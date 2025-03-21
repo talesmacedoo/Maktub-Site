@@ -44,6 +44,7 @@
         <div class="seta-convenios">
                     <img src="<?php echo BASE_URL; ?>assets/img/convenios/seta-convenios.svg"  alt="">
         </div>
+        
         <!-- Steps Section -->
         <section id="steps" class="steps section">
             <div class="container section-title" data-aos="fade-left">
@@ -53,13 +54,39 @@
             <div class="container">
 
                 <div class="row gy-4">
-
-
-
+                    <!--
                     <div class="col-lg-6 " data-aos="fade-left">
                         <img src="<?php echo BASE_URL; ?>assets/img/convenios/informe-seus-dados.svg" class="img-fluid" alt="">
-                    </div>
+                    </div>-->
 
+                    <div class="col-lg-6">
+                    <!-- Carrossel de Imagens -->
+                    <div id="carouselImages" class="carousel slide" >
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="<?php echo BASE_URL; ?>assets/img/convenios/steps-1.svg" class="d-block w-100 img-fluid" alt="Imagem 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo BASE_URL; ?>assets/img/convenios/steps-2.svg" class="d-block w-100 img-fluid" alt="Imagem 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo BASE_URL; ?>assets/img/convenios/steps-3.svg" class="d-block w-100 img-fluid" alt="Imagem 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="<?php echo BASE_URL; ?>assets/img/convenios/steps-4.svg" class="d-block w-100 img-fluid" alt="Imagem 4">
+                            </div>
+                        </div>
+                        <!-- Controle para navegação do carrossel -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselImages" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselImages" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
 
                     <div class="col-lg-6">
                         <div class="steps-container d-flex flex-column align-items-center justify-content-center" href="https://govam.consiglog.com.br/LoginSegundaEtapa.aspx">
