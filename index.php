@@ -127,8 +127,9 @@
 
     </section><!-- /About Section -->
 
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
+
+    <!-- Bancos Section -->
+    <section id="bancos" class="bancos section">
 
       <div class="container">
 
@@ -136,9 +137,9 @@
           <script type="application/json" class="swiper-config">
             {
               "loop": true,
-              "speed": 600,
+              "speed": 1000,
               "autoplay": {
-                "delay": 5000
+                "delay": 500
               },
               "slidesPerView": "auto",
               "pagination": {
@@ -167,21 +168,21 @@
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/daycoval.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/safra.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/bb.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/santander.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/bradesco.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/digio.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/bancomaster.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/ole.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/pan.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/daycoval.png"  alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/safra.png"  alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/bb.png"  alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/santander.png"  alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/bradesco.png"  alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/digio.png"  alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/bancomaster.png"  alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/ole.png"  alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/pan.png"  alt=""></div>
           </div>
         </div>
 
       </div>
 
-    </section><!-- /Clients Section -->
+    </section><!-- /Bancos Section -->
 
     <!-- Stats Section -->
     <section id="stats" class="stats section">

@@ -59,7 +59,7 @@
                         <img src="<?php echo BASE_URL; ?>assets/img/convenios/informe-seus-dados.svg" class="img-fluid" alt="">
                     </div>-->
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-right">
                     <!-- Carrossel de Imagens -->
                     <div id="carouselImages" class="carousel slide" >
                         <div class="carousel-inner">
@@ -88,7 +88,7 @@
                     </div>
                 </div>
 
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" data-aos="fade-left">
                         <div class="steps-container d-flex flex-column align-items-center justify-content-center" href="https://govam.consiglog.com.br/LoginSegundaEtapa.aspx">
                         
                             <div class="steps-item d-flex align-items-center">
@@ -215,6 +215,64 @@
 
         </section><!-- /Beneficios Section -->
 
+        <!-- Clients Section -->
+        <section id="clients" class="clients section">
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="swiper init-swiper">
+                    <script type="application/json" class="swiper-config">
+                    {
+                        "loop": true,
+                        "speed": 1000,
+                        "autoplay": {
+                            "delay": 500
+                        },
+                        "slidesPerView": "auto",
+                        "pagination": {
+                            "el": ".swiper-pagination",
+                            "type": "bullets",
+                            "clickable": true
+                        },
+                        "breakpoints": {
+                            "320": {
+                            "slidesPerView": 2,
+                            "spaceBetween": 40
+                            },
+                            "480": {
+                            "slidesPerView": 3,
+                            "spaceBetween": 60
+                            },
+                            "640": {
+                            "slidesPerView": 4,
+                            "spaceBetween": 80
+                            },
+                            "992": {
+                            "slidesPerView": 6,
+                            "spaceBetween": 120
+                            }
+                        }
+                        }
+
+                        </script>
+                    <div class="swiper-wrapper align-items-center">
+                        <div class="swiper-slide"><img src="<?php echo BASE_URL; ?>assets/img/clients/daycoval.png"  alt=""></div>
+                        <div class="swiper-slide"><img src="<?php echo BASE_URL; ?>assets/img/clients/safra.png"  alt=""></div>
+                        <div class="swiper-slide"><img src="<?php echo BASE_URL; ?>assets/img/clients/bb.png"  alt=""></div>
+                        <div class="swiper-slide"><img src="<?php echo BASE_URL; ?>assets/img/clients/santander.png"  alt=""></div>
+                        <div class="swiper-slide"><img src="<?php echo BASE_URL; ?>assets/img/clients/bradesco.png"  alt=""></div>
+                        <div class="swiper-slide"><img src="<?php echo BASE_URL; ?>assets/img/clients/digio.png"  alt=""></div>
+                        <div class="swiper-slide"><img src="<?php echo BASE_URL; ?>assets/img/clients/bancomaster.png"  alt=""></div>
+                        <div class="swiper-slide"><img src="<?php echo BASE_URL; ?>assets/img/clients/ole.png"  alt=""></div>
+                        <div class="swiper-slide"><img src="<?php echo BASE_URL; ?>assets/img/clients/pan.png"  alt=""></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section><!-- /Clients Section -->
+
+
         <!-- Faq Section -->
         <section id="faq" class="faq faq-convenios section">
 
@@ -329,7 +387,7 @@
         <script src="../assets/vendor/php-email-form/validate.js"></script>
         <script src="../assets/vendor/aos/aos.js"></script>
         <script src="../assets/vendor/glightbox/js/glightbox.min.js"></script>
-        <script src="../assets/vendor/swiper/swiper-bundle.min.js"></script>
+        <script src="<?php echo BASE_URL; ?>assets/vendor/swiper/swiper-bundle.min.js"></script>
         <script src="../assets/vendor/purecounter/purecounter_vanilla.js"></script>
         <script src="../assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
         <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>

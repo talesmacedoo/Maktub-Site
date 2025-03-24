@@ -166,35 +166,10 @@
         }
       });
     }
-    /*
-    window.addEventListener('load', navmenuScrollspy);
-    document.addEventListener('scroll', navmenuScrollspy);
-  
-    document.addEventListener("DOMContentLoaded", function () {
-      //Mostrar o header a partir da segunda seção
-      const headerConvenios = document.getElementById("header");
-      const secondSection = document.getElementById("steps");
-    
-      if (!headerConvenios) {
+	window.addEventListener('load', navmenuScrollspy);
+	document.addEventListener('scroll', navmenuScrollspy);
 
-        return;
-      }
-    
-      if (!secondSection) {
-        return;
-      }
-      window.addEventListener("scroll", function () {
 
-        const sectionPosition = secondSection.offsetTop; 
-        const scrollPosition = window.scrollY;
-    
-        if (scrollPosition >= sectionPosition) {
-          headerConvenios.classList.add("show"); //Adiciona a classe para mostrar o header
-        } else {
-          headerConvenios.classList.remove("show"); //Esconde o header se voltar para o topo
-        }
-      });
-    });*/
     document.addEventListener("DOMContentLoaded", function () {
       const headerConvenios = document.getElementById("header");
       const firstSection = document.querySelector("section"); // Pega a primeira seção da página

@@ -434,8 +434,6 @@ h6 {
 }
 
 
-
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -1391,23 +1389,28 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Clients Section
+# Bancos Section
 --------------------------------------------------------------*/
-.clients .swiper {
-  padding: 10px 0;
+.bancos .swiper {
+  padding: 0px ;
 }
 
-.clients .swiper-wrapper {
+.bancos .swiper-wrapper {
   height: auto;
 }
 
-.clients .swiper-slide img {
+.bancos .swiper-slide img {
   transition: 0.3s;
+  width: 120px;
+  margin-right: 15px;
+
 }
 
-.clients .swiper-slide img:hover {
+.bancos .swiper-slide img:hover {
   transform: scale(1.1);
 }
+
+
 
 /*--------------------------------------------------------------
 # Stats Section
