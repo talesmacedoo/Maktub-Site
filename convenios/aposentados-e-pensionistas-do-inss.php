@@ -271,6 +271,39 @@
 
         </section><!-- /Bancos Section -->
 
+        <!-- Contato-whatsapp Section -->
+        <section id="contato-whatsapp" class="contato-whatsapp section">
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-5" data-aos="fade-up" data-aos-delay="50">
+                        <div class="content ">
+                            <h3><strong>Entre em contato com a Maktub no WhatsApp!</strong></h3>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="200">
+
+                    <div class="contato-whatsapp-container d-flex flex-column align-items-center text-start">
+                        <p class="w-75">
+                            <strong> Pronto para fechar o melhor negócio? Descubra ofertas exclusivas para você! </strong>
+                        </p>
+                        
+                        <a href="https://api.whatsapp.com/send/?phone=7130215454&text=Desejo%20receber%20uma%20simula%C3%A7%C3%A3o!&type=phone_number&app_absent=0" target="_blank" class="btn-contato-whatsapp">
+                            <strong>Converse conosco agora pelo WhatsApp</strong> <img src="<?php echo BASE_URL; ?>assets/img/icons/whatsapp-icon.svg" alt="logo maktub"> 
+                        </a>
+                        
+                    </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </section><!-- /Faq Section -->
 
         <!-- Faq Section -->
         <section id="faq" class="faq faq-convenios section">

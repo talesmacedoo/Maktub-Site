@@ -899,6 +899,26 @@ h6 {
   font-size: 13px;
 }
 
+@media (max-width: 640px) {
+  .footer-about .logo {
+    text-align: center; 
+  }
+
+  .footer-about .logo a {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+  }
+
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -1197,6 +1217,19 @@ section,
   .hero .btn-get-started,
   .hero .btn-watch-video {
     font-size: 14px;
+    color: var(--contrast-color);
+    background: var(--accent-color);
+    font-family: var(--heading-font);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 14px 40px;
+    margin-bottom: 12px;
+    border-radius: 50px;
+    transition: 0.3s;
+    border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
+    background-color: color-mix(in srgb, var(--default-color), transparent 90%);
   }
   
   .hero h2,
@@ -1318,6 +1351,7 @@ section,
   height: auto; 
   margin-top: 0;
 }
+
 
 /*--------------------------------------------------------------
 # About Section
@@ -2051,6 +2085,60 @@ section,
     transform: scale(1.15);
   }
 }
+
+/*--------------------------------------------------------------
+# Contato-whatsapp Section
+--------------------------------------------------------------*/
+.contato-whatsapp{
+  background-color: var(--accent-color-maktub);
+}
+
+.contato-whatsapp .content  strong{
+  font-size: 40px;
+  color: var(--background-color);
+}
+
+.contato-whatsapp-container  p {
+  margin-bottom: 0;
+  overflow: hidden;
+  font-size: 20px;
+  color: var(--background-color);
+}
+
+.contato-whatsapp-container img {
+  width: 18px;
+  margin-left: 2px;
+}
+
+.contato-whatsapp-container  .btn-contato-whatsapp {
+  color: var(--blue-color-maktub);
+  margin-top: 15px;
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  border: 2px solid color-mix(in srgb, var(--blue-color-maktub), transparent 50%);
+  transition: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--heading-font);
+  transition: 0.5s;
+}
+
+.contato-whatsapp-container .btn-contato-whatsapp:hover {
+  background-color: color-mix(in srgb, var(--blue-color-maktub), transparent 80%);
+  color: var(--background-color);
+}
+
+
+.contato-whatsapp .contato-whatsapp-container .faq-item {
+  background-color: var(--surface-color);
+  position: relative;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
 
 /*--------------------------------------------------------------
 # Faq Section
