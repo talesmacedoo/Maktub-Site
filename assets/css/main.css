@@ -781,6 +781,16 @@ h6 {
   }
 }
 
+
+/*--------------------------------------------------------------
+# Efeito de curva invertida
+--------------------------------------------------------------*/
+.section-curve-up {
+  background-color: var(--accent-color);
+  clip-path: ellipse(65% 90% at 50% 0%);
+  height: 60px;
+}
+
 /*--------------------------------------------------------------
 # Global Footer
 --------------------------------------------------------------*/
@@ -2087,6 +2097,102 @@ section,
 }
 
 /*--------------------------------------------------------------
+# Sobre-consignado Section
+--------------------------------------------------------------*/
+.sobre-consignado{
+  color: var(--background-color);
+}
+
+.sobre-consignado .container {
+  background-color: var(--blue-color-maktub);
+  border-radius: 60px;
+  overflow: visible; /* para que a imagem ultrapasse a borda */
+}
+
+.sobre-consignado-container img {
+  width: 90%;
+  border-radius: 60px;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.3);
+  margin-top: -60px; /* ajusta este valor conforme necessário */
+}
+
+.sobre-consignado .content  strong{
+  font-size: 34px;
+  color: var(--accent-color-maktub);
+}
+.sobre-consignado .content h4{
+  font-size: 20px
+}
+
+@media (max-width: 668px) {
+  .sobre-consignado .container {
+    padding: 20px;
+    border-radius: 40px; 
+  }
+  
+  .sobre-consignado .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+  .sobre-consignado .col-lg-7,
+  .sobre-consignado .col-lg-5 {
+    text-align: center;
+  }
+
+  .sobre-consignado-container img {
+    width: 100%; 
+    margin-top: -50px; 
+  }
+
+  .sobre-consignado .content {
+    text-align: center;
+  }
+
+  .sobre-consignado .content strong {
+    font-size: 28px;
+  }
+
+  .sobre-consignado .content h4 {
+    font-size: 16px; /* ajuste o tamanho do subtítulo/conteúdo */
+  }
+
+  /* Se houver outros ajustes específicos para a versão mobile, insira aqui */
+}
+
+/*.sobre-consignado-container  .btn-sobre-consignado {
+  color: var(--light-beige-maktub);
+  margin-top: 15px;
+  display: inline-block;
+  padding: 8px 40px 10px 40px;
+  border-radius: 50px;
+  border: 2px solid color-mix(in srgb, var(--blue-color-maktub), transparent 50%);
+  transition: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--heading-font);
+  transition: 0.5s;
+}
+
+.sobre-consignado-container .btn-sobre-consignado:hover {
+  background-color: color-mix(in srgb, var(--blue-color-maktub), transparent 80%);
+  color: var(--background-color);
+}
+
+
+.sobre-consignado .sobre-consignado-container .faq-item {
+  background-color: var(--surface-color);
+  position: relative;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}*/
+
+
+
+/*--------------------------------------------------------------
 # Contato-whatsapp Section
 --------------------------------------------------------------*/
 .contato-whatsapp{
@@ -2111,7 +2217,7 @@ section,
 }
 
 .contato-whatsapp-container  .btn-contato-whatsapp {
-  color: var(--blue-color-maktub);
+  color: var(--light-beige-maktub);
   margin-top: 15px;
   display: inline-block;
   padding: 8px 40px 10px 40px;
@@ -2138,6 +2244,7 @@ section,
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
+
 
 
 /*--------------------------------------------------------------
@@ -2466,6 +2573,8 @@ section,
 /*--------------------------------------------------------------
 # Steps Section
 --------------------------------------------------------------*/
+
+
 .steps .section-title {
   margin-bottom: 10px; 
   margin-top: 20px;
@@ -2495,11 +2604,11 @@ section,
 }
 
 .steps .steps-item i {
-  font-size: 50px;
-  color: var(--disable-color);
-  background-color: color-mix(in srgb, var(--accent-color-maktub), transparent 80%);
-  width: 44px;
-  height: 44px;
+  font-size: 40px;
+  color: var(--background-color);
+  background-color: var(--accent-color-maktub);
+  width: 64px;
+  height: 64px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2509,7 +2618,7 @@ section,
 }
 
 .steps .steps-item a {
-  color: var(--disable-color);
+  color: var(--bs-heading-color);
   font-size: 20px;
   padding: 0;
   font-size: 18px;
@@ -2539,6 +2648,36 @@ section,
 
 .steps .steps-item:hover{
   background-color: color-mix(in srgb, var(--accent-color-maktub), transparent 80%);
+}
+
+.steps .steps-item {
+  margin-top: 20px;
+  position: relative;
+  padding-left: 30px; /* espaço para alinhar os ícones */
+}
+
+.steps .steps-item .icon {
+  position: relative;
+  z-index: 2;
+}
+
+.steps .steps-item::before {
+  content: "";
+  position: absolute;
+  top: 44px;
+  left: 62px;
+  transform: translateX(-50%);
+  width: 2px;
+  height: calc(100% - 44px);
+  background-color: #a6852c;
+  z-index: 0;
+  margin-top: 50px;
+}
+
+
+
+.steps .steps-item:last-child::before {
+  height: 0px; /* encurta a linha no último item */
 }
 
 /*--------------------------------------------------------------
@@ -2722,8 +2861,14 @@ section,
 .starter-section {
   /* Add your styles here */
 }
-
-
+/*--------------------------------------------------------------
+# Efeito
+--------------------------------------------------------------*/
+.section-curve-down {
+  background-color: var(--light-beige-maktub);
+  clip-path: ellipse(55% 90% at 50% 100%);
+  height: 60px;
+}
 /*--------------------------------------------------------------
 # Beneficios Section
 --------------------------------------------------------------*/
@@ -3487,6 +3632,7 @@ section,
 .header.fixed-top + .main {
   padding-top: 80px; /* Ajuste conforme a altura real do seu header */
 }
+
 
 
 

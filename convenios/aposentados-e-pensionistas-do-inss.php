@@ -45,13 +45,41 @@
                     <img src="<?php echo BASE_URL; ?>assets/img/convenios/seta-convenios.svg"  alt="">
         </div>
         
+        <!-- Sobre-consignado Section -->
+        <section id="sobre-consignado" class="sobre-consignado section">
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-7 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="200">
+                        <div class="sobre-consignado-container d-flex flex-column align-items-center text-start">
+                            <img src="<?php echo BASE_URL; ?>assets/img/convenios/aposentados-transacao.jpg" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-5" data-aos="fade-up" data-aos-delay="50">
+                        <div class="content ">
+                            <h3><strong>O que é o crédito consignado?</strong></h3>
+                            <h4>O crédito consignado para INSS é uma modalidade de empréstimo destinada a aposentados e pensionistas do Instituto Nacional do Seguro Social (INSS), em que as parcelas são descontadas diretamente do benefício recebido mensalmente.</h4>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section><!-- /sobre-consignado Section -->
+        
+
         <!-- Steps Section -->
         <section id="steps" class="steps section">
             <div class="container section-title" data-aos="fade-left">
                 <h2>Como solicitar um orçamento?</h2>
             </div><!-- End Section Title -->
 
-            <div class="container">
+            <div class="container container-steps">
 
                 <div class="row gy-4">
                     <!--
@@ -92,34 +120,34 @@
                         <div class="steps-container d-flex flex-column align-items-center justify-content-center" href="https://govam.consiglog.com.br/LoginSegundaEtapa.aspx">
                         
                             <div class="steps-item d-flex align-items-center">
-                                <div class="icon flex-shrink-0"><i class="bi bi-1-circle"></i></div>
+                                <div class="icon flex-shrink-0"><i class="bi bi-person-fill"></i></div>
                                 <div>
                                     <h4 ><a  class="">Informe seus dados</a></h4>
-                                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                                    <p class="description">Informe seus dados para iniciarmos a simulação.</p>
                                 </div>
                             </div>
 
                             <div class="steps-item d-flex align-items-center">
-                                <div class="icon flex-shrink-0"><i class="bi bi-2-circle"></i></div>
+                                <div class="icon flex-shrink-0"><i class="bi bi-rocket-takeoff-fill"></i></div>
                                 <div>
                                     <h4 class="title"><a href="" class="stretched-link">Escolha a melhor oferta</a></h4>
-                                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                                    <p class="description">Receba as melhores opções e escolha a mais vantajosa.</p>
                                 </div>
                             </div>
 
                             <div class="steps-item d-flex align-items-center">
-                                <div class="icon flex-shrink-0"><i class="bi bi-3-circle"></i></div>
+                                <div class="icon flex-shrink-0"><i class="bi bi-clipboard-check-fill"></i></div>
                                 <div>
                                     <h4 class="title"><a href="" class="stretched-link">Formalização eletrônica</a></h4>
-                                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                                    <p class="description">Receba o contrato e assine de forma 100% online.</p>
                                 </div>
                             </div>
 
                             <div class="steps-item d-flex align-items-center">
-                                <div class="icon flex-shrink-0"><i class="bi bi-4-circle"></i></div>
+                                <div class="icon flex-shrink-0"><i class="bi bi-cash-coin"></i></div>
                                 <div>
                                     <h4 class="title"><a href="" class="stretched-link">Dinheiro na conta</a></h4>
-                                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                                    <p class="description">O dinheiro cai na sua conta, e as parcelas são descontadas direto do benefício.</p>
                                 </div>
                             </div>
 
@@ -130,6 +158,10 @@
             </div>
 
         </section><!-- /Steps Section -->
+
+        <section class="section-curve-down">
+            
+        </section>
 
         <!-- Beneficios Section -->
         <section id="beneficios" class="beneficios section">
@@ -303,7 +335,9 @@
 
             </div>
 
-        </section><!-- /Faq Section -->
+        </section><!-- /Contato Whatsapp Section -->
+
+
 
         <!-- Faq Section -->
         <section id="faq" class="faq faq-convenios section">
@@ -400,8 +434,12 @@
                 }
             })(document,"script");
         </script>
-    
+
+
+
         <footer id="footer" class="footer accent-background">
+            <section class="section-curve-up">
+            </section>
             <?php
                 include '../footer.php'
             ?>
