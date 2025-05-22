@@ -25,15 +25,15 @@
             <div class="container position-relative"  data-aos-delay="100">
                 <div class="row gy-5 justify-content-between">
                 <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-right">
-                    <h2>Empréstimo Consignado para Servidores do <span>Governo Estadual</span></h2>
-                    <p>Crédito rápido, seguro e com as melhores taxas para quem é servidor do Governo Estadual.</p>
+                    <h2>Empréstimo Consignado para Servidores <span>Municipais</span></h2>
+                    <p>Crédito rápido, seguro e com as melhores taxas para quem é servidor municipal.</p>
                     <div class="d-flex">
                     <a href="#about" class="btn-get-started">Saiba Mais</a>
                     
                     </div>
                 </div>
                 <div class="col-lg-7 order-1 order-lg-2" data-aos="fade-left">
-                    <img src="<?php echo BASE_URL; ?>assets/img/convenios/governo-estadual.svg" class="img-fluid" alt="">
+                    <img src="<?php echo BASE_URL; ?>assets/img/convenios/governo-municipal.svg" class="img-fluid" alt="">
                 </div>
                 </div>
             </div>
@@ -54,14 +54,14 @@
 
                     <div class="col-lg-7 d-flex flex-column align-items-center text-center" data-aos="fade-up" data-aos-delay="200">
                         <div class="sobre-consignado-container d-flex flex-column align-items-center text-start">
-                            <img src="<?php echo BASE_URL; ?>assets/img/convenios/servidor-governo-estadual.jpg" class="img-fluid" alt="">
+                            <img src="<?php echo BASE_URL; ?>assets/img/convenios/servidor-governo-municipal.jpg" class="img-fluid" alt="">
                         </div>
                     </div>
                     
                     <div class="col-lg-5" data-aos="fade-up" data-aos-delay="50">
                         <div class="content ">
                             <h3><strong>O que é o crédito consignado?</strong></h3>
-                            <h4>O crédito consignado para servidores públicos estaduais é uma modalidade de empréstimo destinada a funcionários ativos, inativos e pensionistas do Governo Estadual, em que as parcelas são descontadas diretamente da folha de pagamento ou do benefício recebido mensalmente.</h4>
+                            <h4>O crédito consignado para servidores públicos municipais é uma modalidade de empréstimo destinada a funcionários ativos, inativos e pensionistas do Governo Municipal, em que as parcelas são descontadas diretamente da folha de pagamento ou do benefício recebido mensalmente.</h4>
                         </div>
                     </div>
 
