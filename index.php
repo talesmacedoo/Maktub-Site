@@ -175,7 +175,6 @@
             <div class="swiper-slide"><img src="assets/img/clients/santander.png" loading="lazy" alt="Banco Santander Parceiro"></div>
             <div class="swiper-slide"><img src="assets/img/clients/bradesco.png" loading="lazy" alt="Banco Bradesco Parceiro"></div>
             <div class="swiper-slide"><img src="assets/img/clients/digio.png" loading="lazy" alt="Banco Digio Parceiro"></div>
-            <div class="swiper-slide"><img src="assets/img/clients/bancomaster.png" loading="lazy" alt="Banco Master Parceiro"></div>
             <div class="swiper-slide"><img src="assets/img/clients/ole.png" loading="lazy" alt="Banco Olé Parceiro"></div>
             <div class="swiper-slide"><img src="assets/img/clients/pan.png" loading="lazy" alt="Banco PAN Parceiro"></div>
           </div>
@@ -224,7 +223,7 @@
                 <div class="stats-item d-flex">
                   <i class="bi bi-cake2 flex-shrink-0"></i>
                   <div>
-                    <span data-purecounter-start="0" data-purecounter-end="22" data-purecounter-duration="1" class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="24" data-purecounter-duration="1" class="purecounter"></span>
                     <p><strong>Anos </strong> <span>de <strong>experiência</strong> no crédito consignado</span></p>
                   </div>
                 </div>

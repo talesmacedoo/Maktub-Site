@@ -12,34 +12,49 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --default-font: "Roboto",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --heading-font: "Montserrat",  sans-serif;
-  --nav-font: "Poppins",  sans-serif;
+  --default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --heading-font: "Montserrat", sans-serif;
+  --nav-font: "Poppins", sans-serif;
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
-  --default-color: #222222; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #172a28; /* Color for headings, subheadings and title throughout the website */
-  --accent-color-maktub: #AE883D; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --light-blue-color-maktub: #ADD8E6; /* Azul claro utilizado para destacar elementos sutis e transmitir confiança e tranquilidade */
-  --pink-color-maktub: #FFC0CB; /* Rosa utilizado para elementos de destaque que evocam sensibilidade e modernidade */
-  --light-beige-maktub: #f2e6d8; /* Light beige color used for subtle backgrounds or accents */
+:root {
+  --background-color: #ffffff;
+  /* Background color for the entire website, including individual sections */
+  --default-color: #222222;
+  /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #172a28;
+  /* Color for headings, subheadings and title throughout the website */
+  --accent-color-maktub: #AE883D;
+  /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --light-blue-color-maktub: #ADD8E6;
+  /* Azul claro utilizado para destacar elementos sutis e transmitir confiança e tranquilidade */
+  --pink-color-maktub: #FFC0CB;
+  /* Rosa utilizado para elementos de destaque que evocam sensibilidade e modernidade */
+  --light-beige-maktub: #f2e6d8;
+  /* Light beige color used for subtle backgrounds or accents */
   --blue-color-maktub: #00374c;
-  --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --surface-color: #ffffff;
+  /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #ffffff;
+  /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
   --disable-color: #5E6772;
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #ffffff;  /* The default color of the main navmenu links */
-  --nav-hover-color: #ae883d; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #ffffff; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #ffffff; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #ae883d; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #ae883d; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #ffffff;
+  /* The default color of the main navmenu links */
+  --nav-hover-color: #ae883d;
+  /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #ffffff;
+  /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #ffffff;
+  /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #ae883d;
+  /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #ae883d;
+  /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -74,7 +89,8 @@
 /*--------------------------------------------------------------
 # General Styling & Shared Classes
 --------------------------------------------------------------*/
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
@@ -247,7 +263,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   background-color: var(--background-color);
-  
+
 }
 
 
@@ -312,7 +328,7 @@ h6 {
   padding: 10px 0;
 }
 
-.header .branding-topo a{
+.header .branding-topo a {
   font-size: 12px;
 }
 
@@ -350,7 +366,8 @@ h6 {
 
 .header-convenios {
   position: fixed;
-  top: -100px; /* Esconde o header acima da tela */
+  top: -100px;
+  /* Esconde o header acima da tela */
   left: 0;
   width: 100%;
   background-color: #00374c;
@@ -386,13 +403,15 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 20px; /* Ajuste conforme necessário */
+  padding-left: 20px;
+  /* Ajuste conforme necessário */
 }
 
 .branding-topo-convenio .logo {
   display: flex;
   align-items: center;
-  margin-left: 20px; /* Afasta a logo para a direita */
+  margin-left: 20px;
+  /* Afasta a logo para a direita */
 }
 
 .branding-topo-convenio .logo img {
@@ -416,20 +435,26 @@ h6 {
   transition: 0.3s;
   border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
   background-color: color-mix(in srgb, var(--default-color), transparent 90%);
-  margin-left: auto; /* Empurra o botão para a direita */
-  margin-right: 20px; /* Afastamento da borda direita */
-  padding: 10px 20px; /* Ajuste do tamanho do botão */
+  margin-left: auto;
+  /* Empurra o botão para a direita */
+  margin-right: 20px;
+  /* Afastamento da borda direita */
+  padding: 10px 20px;
+  /* Ajuste do tamanho do botão */
 }
 
 .branding-topo-convenio .btn-get-started:hover {
   border-color: #AE883D;
 }
 
-.branding-topo-convenio .container{
+.branding-topo-convenio .container {
   display: flex;
-  align-items: center; /* Centraliza verticalmente */
-  justify-content: flex-end; /* Mantém os itens alinhados à direita */
-  padding-right: 20px; /* Adiciona um espaçamento da direita */
+  align-items: center;
+  /* Centraliza verticalmente */
+  justify-content: flex-end;
+  /* Mantém os itens alinhados à direita */
+  padding-right: 20px;
+  /* Adiciona um espaçamento da direita */
   height: 100%;
 }
 
@@ -569,7 +594,7 @@ h6 {
     visibility: visible;
   }
 
- 
+
   .navtopo {
     padding: 0;
   }
@@ -643,8 +668,8 @@ h6 {
   .navtopo .active:focus {
     color: var(--nav-color);
   }
- 
- 
+
+
 }
 
 /* Mobile Navigation */
@@ -901,20 +926,20 @@ h6 {
 
 @media (max-width: 640px) {
   .footer-about .logo {
-    text-align: center; 
+    text-align: center;
   }
 
   .footer-about .logo a {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
+    justify-content: center;
+    align-items: center;
   }
 
   .social-links {
     display: flex;
-    justify-content: center; 
-    align-items: center; 
-    gap: 10px; 
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
   }
 
 }
@@ -1140,7 +1165,7 @@ section,
 .hero .texto-digitado {
   position: relative;
   display: inline-block;
-  color: var(--accent-color-maktub); 
+  color: var(--accent-color-maktub);
 }
 
 .hero .texto-digitado::after {
@@ -1150,14 +1175,17 @@ section,
   left: 100%;
   height: 100%;
   width: 2px;
-  background-color: #fff; 
+  background-color: #fff;
   animation: blink 0.7s steps(2) infinite;
 }
 
 @keyframes blink {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
@@ -1204,7 +1232,7 @@ section,
 }
 
 @media (max-width: 640px) {
-  .hero{
+  .hero {
     padding: 80px 0 0 0;
   }
 
@@ -1231,22 +1259,23 @@ section,
     border: 2px solid color-mix(in srgb, var(--default-color), transparent 90%);
     background-color: color-mix(in srgb, var(--default-color), transparent 90%);
   }
-  
+
   .hero h2,
   .hero p,
   .hero .d-flex {
-    text-align: center; 
+    text-align: center;
   }
 
   .hero .d-flex {
-    justify-content: center; 
-    flex-direction: column; 
-    gap: 10px; 
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
   }
+
   .hero .container .texto-digitado {
     /*display: block; */
-    font-size: 31px; 
-    text-align: center; 
+    font-size: 31px;
+    text-align: center;
     /*margin-top: 10px; */
   }
 
@@ -1274,7 +1303,8 @@ section,
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: var(--background-color);
+  background: var(--blue-color-maktub);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -1291,7 +1321,7 @@ section,
 }
 
 .hero .icon-box .title a {
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: #ffffff;
   transition: 0.3s;
 }
 
@@ -1302,7 +1332,7 @@ section,
   transition: all 0.3s ease-in-out;
   font-size: 48px;
   line-height: 1;
-  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  color: var(--accent-color-maktub);
 }
 
 .hero .icon-box:hover {
@@ -1314,12 +1344,12 @@ section,
   color: var(--contrast-color);
 }
 
-.hero-convenios{
+.hero-convenios {
   background-color: #C7D6D9;
   padding: 60px 0 0 0
 }
 
-.hero-convenios h2, 
+.hero-convenios h2,
 .hero-convenios p {
   color: var(--background-color);
 }
@@ -1339,7 +1369,7 @@ section,
   border-color: var(--accent-color-maktub);
 }
 
-.seta-convenios{
+.seta-convenios {
   background-color: var(--nav-color);
   display: flex;
   justify-content: center;
@@ -1347,11 +1377,10 @@ section,
 }
 
 .seta-convenios img {
-  width: 100px; 
-  height: auto; 
+  width: 100px;
+  height: auto;
   margin-top: 0;
 }
-
 
 /*--------------------------------------------------------------
 # About Section
@@ -1398,7 +1427,7 @@ section,
 # Bancos Section
 --------------------------------------------------------------*/
 .bancos .swiper {
-  padding: 0px ;
+  padding: 0px;
 }
 
 .bancos .swiper-wrapper {
@@ -2089,16 +2118,16 @@ section,
 /*--------------------------------------------------------------
 # Contato-whatsapp Section
 --------------------------------------------------------------*/
-.contato-whatsapp{
+.contato-whatsapp {
   background-color: var(--accent-color-maktub);
 }
 
-.contato-whatsapp .content  strong{
+.contato-whatsapp .content strong {
   font-size: 40px;
   color: var(--background-color);
 }
 
-.contato-whatsapp-container  p {
+.contato-whatsapp-container p {
   margin-bottom: 0;
   overflow: hidden;
   font-size: 20px;
@@ -2110,7 +2139,7 @@ section,
   margin-left: 2px;
 }
 
-.contato-whatsapp-container  .btn-contato-whatsapp {
+.contato-whatsapp-container .btn-contato-whatsapp {
   color: var(--blue-color-maktub);
   margin-top: 15px;
   display: inline-block;
@@ -2467,14 +2496,14 @@ section,
 # Steps Section
 --------------------------------------------------------------*/
 .steps .section-title {
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
   margin-top: 20px;
   padding-bottom: 0;
-  text-align: center; 
+  text-align: center;
 }
 
 .steps .section-title h2 {
-  margin: 0; 
+  margin: 0;
   padding: 10;
 
 }
@@ -2537,7 +2566,7 @@ section,
   border-color: color-mix(in srgb, var(--default-color), transparent 50%);
 }
 
-.steps .steps-item:hover{
+.steps .steps-item:hover {
   background-color: color-mix(in srgb, var(--accent-color-maktub), transparent 80%);
 }
 
@@ -2727,7 +2756,7 @@ section,
 /*--------------------------------------------------------------
 # Beneficios Section
 --------------------------------------------------------------*/
-.beneficios{
+.beneficios {
   background-color: var(--light-beige-maktub);
 }
 
@@ -2737,8 +2766,10 @@ section,
   /*box-shadow: 0px 0 30px rgba(0, 0, 0, 0.1);*/
   /*height: 100%;*/
   display: flex;
-  flex-direction: column; /* Organiza os elementos verticalmente */
-  align-items: center; /* Centraliza horizontalmente */
+  flex-direction: column;
+  /* Organiza os elementos verticalmente */
+  align-items: center;
+  /* Centraliza horizontalmente */
   text-align: center;
 
 }
@@ -2748,7 +2779,7 @@ section,
   height: 28px;
   position: relative;
   margin-bottom: 50px;
-  
+
 }
 
 .beneficios .beneficios-item .icon i {
@@ -2757,7 +2788,7 @@ section,
   transition: ease-in-out 0.3s;
   z-index: 2;
   position: relative;
-  
+
 }
 
 .beneficios .beneficios-item .icon:before {
@@ -3446,9 +3477,6 @@ section,
   overflow: hidden;
 }
 
-
-
-
 .top-section .container:before {
   content: "";
   background: rgba(0, 0, 0, 0.5);
@@ -3471,8 +3499,10 @@ section,
 
 .top-section {
   position: relative;
-  padding: 100px 0 60px; /* Ajuste do espaçamento superior para evitar sobreposição */
-  background-color: #f8f9fa; /* Cor de fundo (ajuste conforme necessário) */
+  padding: 100px 0 60px;
+  /* Ajuste do espaçamento superior para evitar sobreposição */
+  background-color: #f8f9fa;
+  /* Cor de fundo (ajuste conforme necessário) */
 }
 
 .top-section img {
@@ -3484,26 +3514,30 @@ section,
 }
 
 /* Ajuste para garantir que o conteúdo do header não sobreponha */
-.header.fixed-top + .main {
-  padding-top: 80px; /* Ajuste conforme a altura real do seu header */
+.header.fixed-top+.main {
+  padding-top: 80px;
+  /* Ajuste conforme a altura real do seu header */
 }
 
-/* ==========================================================
-   MAKTUB PREMIUM AESTHETICS OVERRIDES (ETAPA 3)
-   ========================================================== */
 
 /* 1. Cores e Gradientes Premium */
 :root {
-  --accent-color: #AE883D; /* Dourado original da empresa */
-  --accent-color-hover: #c49944; /* Dourado sutil no hover */
-  --blue-color-maktub: #00374c; /* Azul original da empresa */
+  --accent-color: #AE883D;
+  /* Dourado original da empresa */
+  --accent-color-hover: #c49944;
+  /* Dourado sutil no hover */
+  --blue-color-maktub: #00374c;
+  /* Azul original da empresa */
   --premium-gradient: linear-gradient(135deg, #AE883D 0%, #c49944 50%, #967431 100%);
-  --premium-shadow-hover: 0 15px 35px rgba(0, 55, 76, 0.25); /* Sombra atualizada pro azul original */
-  --glass-bg: rgba(0, 55, 76, 0.90); /* Fundo vidro para o azul original */
+  --premium-shadow-hover: 0 15px 35px rgba(0, 55, 76, 0.25);
+  /* Sombra atualizada pro azul original */
+  --glass-bg: rgba(0, 55, 76, 0.90);
+  /* Fundo vidro para o azul original */
 }
 
 body {
-  background-color: #FAFAFA; /* Fundo limpo para contraste */
+  background-color: #FAFAFA;
+  /* Fundo limpo para contraste */
 }
 
 /* 2. Glassmorphism no Cabeçalho (Fosco/Translúcido) */
@@ -3515,17 +3549,25 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-/* 3. Hover Effects nos Cartões (Flutuação com amortecimento) */
-.icon-boxes .icon-box, 
+.icon-boxes .icon-box {
+  background-color: var(--blue-color-maktub);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.services .service-item {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.03);
+}
+
+.icon-boxes .icon-box,
 .services .service-item {
   transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease, border-color 0.4s ease;
   border-radius: 12px;
-  background-color: #ffffff;
-  border: 1px solid rgba(0,0,0,0.03);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.03);
 }
 
-.icon-boxes .icon-box:hover, 
+.icon-boxes .icon-box:hover,
 .services .service-item:hover {
   transform: translateY(-8px);
   box-shadow: var(--premium-shadow-hover);
@@ -3565,7 +3607,7 @@ body {
   left: -100%;
   width: 50%;
   height: 100%;
-  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0) 100%);
   transform: skewX(-25deg);
   transition: all 0.7s ease;
   z-index: -1;
@@ -3595,17 +3637,19 @@ body {
 
 /* 6. Fundo sútil para os ícones originais */
 .services .service-item .icon {
-  background-color: rgba(174, 136, 61, 0.08); /* 8% alpha of the gold color */
+  background-color: rgba(174, 136, 61, 0.08);
+  /* 8% alpha of the gold color */
   color: #AE883D;
 }
 
 /* 7. Arredondamento elegante nos cartões de Depoimentos */
 .testimonials .testimonial-item {
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
-  border: 1px solid rgba(0,0,0,0.02);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.02);
   transition: all 0.3s ease;
 }
+
 .testimonials .testimonial-item:hover {
   transform: translateY(-5px);
   box-shadow: var(--premium-shadow-hover);
