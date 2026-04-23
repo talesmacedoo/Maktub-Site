@@ -49,13 +49,13 @@
   --surface-color: #ffffff;
 }
 
-/*.dark-background {
+.dark-background {
   --background-color: #060606;
   --default-color: #ffffff;
   --heading-color: #ffffff;
   --surface-color: #252525;
   --contrast-color: #ffffff;
-}*/
+}
 
 .accent-background {
   --background-color: #00374c;
@@ -350,7 +350,7 @@ h6 {
 
 .header-convenios {
   position: fixed;
-  top: -100px; 
+  top: -100px; /* Esconde o header acima da tela */
   left: 0;
   width: 100%;
   background-color: #00374c;
@@ -358,7 +358,7 @@ h6 {
   z-index: 1000;
 }
 
-
+/* O header desce quando a classe 'show' é adicionada */
 .header-convenios.show {
   top: 0;
 }
@@ -386,13 +386,13 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-left: 20px; 
+  padding-left: 20px; /* Ajuste conforme necessário */
 }
 
 .branding-topo-convenio .logo {
   display: flex;
   align-items: center;
-  margin-left: 20px; 
+  margin-left: 20px; /* Afasta a logo para a direita */
 }
 
 .branding-topo-convenio .logo img {
@@ -647,6 +647,7 @@ h6 {
  
 }
 
+/* Mobile Navigation */
 @media (max-width: 1199px) {
   .mobile-nav-toggle {
     color: var(--nav-color);
@@ -778,16 +779,6 @@ h6 {
   .navtopo a {
     color: var(--nav-dropdown-color) !important;
   }
-}
-
-
-/*--------------------------------------------------------------
-# Efeito de curva invertida
---------------------------------------------------------------*/
-.section-curve-up {
-  background-color: var(--accent-color);
-  clip-path: ellipse(65% 90% at 50% 0%);
-  height: 60px;
 }
 
 /*--------------------------------------------------------------
@@ -2096,102 +2087,6 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Sobre-consignado Section
---------------------------------------------------------------*/
-.sobre-consignado{
-  color: var(--background-color);
-}
-
-.sobre-consignado .container {
-  background-color: var(--blue-color-maktub);
-  border-radius: 60px;
-  overflow: visible; 
-}
-
-.sobre-consignado-container img {
-  width: 90%;
-  border-radius: 60px;
-  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.3);
-  margin-top: -60px; 
-}
-
-.sobre-consignado .content  strong{
-  font-size: 34px;
-  color: var(--accent-color-maktub);
-}
-.sobre-consignado .content h4{
-  font-size: 20px
-}
-
-@media (max-width: 668px) {
-  .sobre-consignado .container {
-    padding: 20px;
-    border-radius: 40px; 
-  }
-  
-  .sobre-consignado .row {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  
-  .sobre-consignado .col-lg-7,
-  .sobre-consignado .col-lg-5 {
-    text-align: center;
-  }
-
-  .sobre-consignado-container img {
-    width: 100%; 
-    margin-top: -50px; 
-  }
-
-  .sobre-consignado .content {
-    text-align: center;
-  }
-
-  .sobre-consignado .content strong {
-    font-size: 28px;
-  }
-
-  .sobre-consignado .content h4 {
-    font-size: 16px; /* ajuste o tamanho do subtítulo/conteúdo */
-  }
-
-  /* Se houver outros ajustes específicos para a versão mobile, insira aqui */
-}
-
-/*.sobre-consignado-container  .btn-sobre-consignado {
-  color: var(--light-beige-maktub);
-  margin-top: 15px;
-  display: inline-block;
-  padding: 8px 40px 10px 40px;
-  border-radius: 50px;
-  border: 2px solid color-mix(in srgb, var(--blue-color-maktub), transparent 50%);
-  transition: none;
-  font-size: 16px;
-  font-weight: 600;
-  font-family: var(--heading-font);
-  transition: 0.5s;
-}
-
-.sobre-consignado-container .btn-sobre-consignado:hover {
-  background-color: color-mix(in srgb, var(--blue-color-maktub), transparent 80%);
-  color: var(--background-color);
-}
-
-
-.sobre-consignado .sobre-consignado-container .faq-item {
-  background-color: var(--surface-color);
-  position: relative;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-}*/
-
-
-
-/*--------------------------------------------------------------
 # Contato-whatsapp Section
 --------------------------------------------------------------*/
 .contato-whatsapp{
@@ -2216,7 +2111,7 @@ section,
 }
 
 .contato-whatsapp-container  .btn-contato-whatsapp {
-  color: var(--light-beige-maktub);
+  color: var(--blue-color-maktub);
   margin-top: 15px;
   display: inline-block;
   padding: 8px 40px 10px 40px;
@@ -2243,7 +2138,6 @@ section,
   box-shadow: 0px 5px 25px 0px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
-
 
 
 /*--------------------------------------------------------------
@@ -2572,8 +2466,6 @@ section,
 /*--------------------------------------------------------------
 # Steps Section
 --------------------------------------------------------------*/
-
-
 .steps .section-title {
   margin-bottom: 10px; 
   margin-top: 20px;
@@ -2603,11 +2495,11 @@ section,
 }
 
 .steps .steps-item i {
-  font-size: 40px;
-  color: var(--background-color);
-  background-color: var(--accent-color-maktub);
-  width: 64px;
-  height: 64px;
+  font-size: 50px;
+  color: var(--disable-color);
+  background-color: color-mix(in srgb, var(--accent-color-maktub), transparent 80%);
+  width: 44px;
+  height: 44px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2617,7 +2509,7 @@ section,
 }
 
 .steps .steps-item a {
-  color: var(--bs-heading-color);
+  color: var(--disable-color);
   font-size: 20px;
   padding: 0;
   font-size: 18px;
@@ -2649,35 +2541,6 @@ section,
   background-color: color-mix(in srgb, var(--accent-color-maktub), transparent 80%);
 }
 
-.steps .steps-item {
-  margin-top: 20px;
-  position: relative;
-  padding-left: 30px; 
-}
-
-.steps .steps-item .icon {
-  position: relative;
-  z-index: 2;
-}
-
-.steps .steps-item::before {
-  content: "";
-  position: absolute;
-  top: 44px;
-  left: 62px;
-  transform: translateX(-50%);
-  width: 2px;
-  height: calc(100% - 44px);
-  background-color: #a6852c;
-  z-index: 0;
-  margin-top: 50px;
-}
-
-
-
-.steps .steps-item:last-child::before {
-  height: 0px; 
-}
 /*--------------------------------------------------------------
 # Portfolio Details Section
 --------------------------------------------------------------*/
@@ -2854,13 +2717,13 @@ section,
 }
 
 /*--------------------------------------------------------------
-# Efeito
+# Starter Section Section
 --------------------------------------------------------------*/
-.section-curve-down {
-  background-color: var(--light-beige-maktub);
-  clip-path: ellipse(55% 90% at 50% 100%);
-  height: 60px;
+.starter-section {
+  /* Add your styles here */
 }
+
+
 /*--------------------------------------------------------------
 # Beneficios Section
 --------------------------------------------------------------*/
@@ -3625,3 +3488,125 @@ section,
   padding-top: 80px; /* Ajuste conforme a altura real do seu header */
 }
 
+/* ==========================================================
+   MAKTUB PREMIUM AESTHETICS OVERRIDES (ETAPA 3)
+   ========================================================== */
+
+/* 1. Cores e Gradientes Premium */
+:root {
+  --accent-color: #AE883D; /* Dourado original da empresa */
+  --accent-color-hover: #c49944; /* Dourado sutil no hover */
+  --blue-color-maktub: #00374c; /* Azul original da empresa */
+  --premium-gradient: linear-gradient(135deg, #AE883D 0%, #c49944 50%, #967431 100%);
+  --premium-shadow-hover: 0 15px 35px rgba(0, 55, 76, 0.25); /* Sombra atualizada pro azul original */
+  --glass-bg: rgba(0, 55, 76, 0.90); /* Fundo vidro para o azul original */
+}
+
+body {
+  background-color: #FAFAFA; /* Fundo limpo para contraste */
+}
+
+/* 2. Glassmorphism no Cabeçalho (Fosco/Translúcido) */
+.header.scrolled {
+  background-color: var(--glass-bg) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* 3. Hover Effects nos Cartões (Flutuação com amortecimento) */
+.icon-boxes .icon-box, 
+.services .service-item {
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease, border-color 0.4s ease;
+  border-radius: 12px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0,0,0,0.03);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.03);
+}
+
+.icon-boxes .icon-box:hover, 
+.services .service-item:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--premium-shadow-hover);
+  border-color: rgba(174, 136, 61, 0.3);
+}
+
+/* Os ícones crescem e ganham ouro vivo no hover */
+.icon-boxes .icon-box:hover .icon i,
+.services .service-item:hover .icon i {
+  color: var(--accent-color-hover) !important;
+  transform: scale(1.15);
+  transition: transform 0.3s ease;
+}
+
+/* 4. Botões Premium (Gradiente e Efeito Metálico "Shine") */
+.btn-get-started,
+.branding-topo-convenio .btn-get-started,
+.php-email-form button[type="submit"] {
+  background: var(--premium-gradient) !important;
+  color: #fff !important;
+  border: none !important;
+  box-shadow: 0 4px 15px rgba(174, 136, 61, 0.3) !important;
+  transition: all 0.4s ease !important;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 50px !important;
+}
+
+/* Faixa de Luz cruzando o botão ao passar o mouse */
+.btn-get-started::after,
+.branding-topo-convenio .btn-get-started::after,
+.php-email-form button[type="submit"]::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%);
+  transform: skewX(-25deg);
+  transition: all 0.7s ease;
+  z-index: -1;
+}
+
+.btn-get-started:hover::after,
+.branding-topo-convenio .btn-get-started:hover::after,
+.php-email-form button[type="submit"]:hover::after {
+  left: 200%;
+}
+
+.btn-get-started:hover,
+.branding-topo-convenio .btn-get-started:hover,
+.php-email-form button[type="submit"]:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(174, 136, 61, 0.5) !important;
+}
+
+/* 5. Títulos com tinta Dourada Gradiente embutida no texto */
+.section-title h2 {
+  background: var(--premium-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  font-weight: 700;
+}
+
+/* 6. Fundo sútil para os ícones originais */
+.services .service-item .icon {
+  background-color: rgba(174, 136, 61, 0.08); /* 8% alpha of the gold color */
+  color: #AE883D;
+}
+
+/* 7. Arredondamento elegante nos cartões de Depoimentos */
+.testimonials .testimonial-item {
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  border: 1px solid rgba(0,0,0,0.02);
+  transition: all 0.3s ease;
+}
+.testimonials .testimonial-item:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--premium-shadow-hover);
+}

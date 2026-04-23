@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
 <title>Maktub Promotora</title>
-<meta name="description" content="">
-<meta name="keywords" content="">
+<meta name="description" content="A Maktub Promotora oferece as melhores soluções em crédito. Crédito consignado, portabilidade de crédito, antecipação do FGTS e cartão de crédito consignado. Segurança e agilidade desde 2002.">
+<meta name="keywords" content="crédito consignado, empréstimo fgts, portabilidade, servidor público, inss, maktub promotora, crédito pessoal">
 
 
 <!-- Favicons -->
@@ -15,7 +15,7 @@
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com" rel="preconnect">
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700&display=swap" rel="stylesheet">
 
 <!-- Vendor CSS Files -->
 <link href="<?php echo BASE_URL; ?>assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,13 +26,6 @@
 
 <!-- Main CSS File -->
 <link href="<?php echo BASE_URL; ?>assets/css/main.css" rel="stylesheet">
-
-
-<!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-<!-- Bootstrap JS (Popper.js incluso) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 
 <!-- =======================================================

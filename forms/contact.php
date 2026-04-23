@@ -21,7 +21,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
     $telefone = preg_replace('/\D/', '', $_POST['telefone']);     
 
-    
+    if (!empty($_POST['website_url_hp'])) {
+        die('OK');
+    }
+
     if (!$email) {
         die("E-mail inválido!");
     }
@@ -52,7 +55,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo 'OK';
         //echo 'E-mail enviado com sucesso!';
     } catch (Exception $e) {
-        echo "Erro ao enviar o e-mail: {$mail->ErrorInfo}";
+        ini_set('log_errors', 1);
+        ini_set('error_log', __DIR__ . '/../error_mail.log');
+        error_log("Erro no disparo de e-mail Maktub: {$mail->ErrorInfo}");
+        
+        echo "Ocorreu um erro técnico ao processar seu e-mail. Por favor, entre em contato via telefone ou WhatsApp.";
     }
 }
 ?>

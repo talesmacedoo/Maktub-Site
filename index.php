@@ -5,7 +5,6 @@
   <?php
     include 'head.php';
   ?>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 </head>
 
 <body class="index-page">
@@ -52,28 +51,28 @@
               <div class="col-xl-3 col-md-6">
                 <div class="icon-box">
                   <div class="icon"><i class="bi bi-piggy-bank-fill"></i></div>
-                  <h4 class="title"><a href="" class="stretched-link">CRÉDITO COM GARANTIA DO FGTS.</a></h4>
+                  <h4 class="title"><a target="_blank" href="https://wa.me/557130215454?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20Crédito%20com%20Garantia%20do%20FGTS." class="stretched-link">CRÉDITO COM GARANTIA DO FGTS.</a></h4>
                 </div>
               </div><!--End Icon Box -->
 
               <div class="col-xl-3 col-md-6">
                 <div class="icon-box">
                   <div class="icon"><i class="bi bi-person-walking"></i></div>
-                  <h4 class="title"><a href="" class="stretched-link">PORTABILIDADE</a></h4>
+                  <h4 class="title"><a target="_blank" href="https://wa.me/557130215454?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20Portabilidade." class="stretched-link">PORTABILIDADE</a></h4>
                 </div>
               </div><!--End Icon Box -->
 
               <div class="col-xl-3 col-md-6">
                 <div class="icon-box">
                   <div class="icon"><i class="bi bi-cash-coin"></i></div>
-                  <h4 class="title"><a href="" class="stretched-link">CRÉDITO CONSIGNADO</a></h4>
+                  <h4 class="title"><a target="_blank" href="https://wa.me/557130215454?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20Crédito%20Consignado." class="stretched-link">CRÉDITO CONSIGNADO</a></h4>
                 </div>
               </div><!--End Icon Box -->
 
               <div class="col-xl-3 col-md-6">
                 <div class="icon-box">
                   <div class="icon"><i class="bi bi-credit-card"></i></div>
-                  <h4 class="title"><a href="" class="stretched-link">CARTÃO DE CRÉDITO CONSIGNADO</a></h4>
+                  <h4 class="title"><a target="_blank" href="https://wa.me/557130215454?text=Olá!%20Gostaria%20de%20saber%20mais%20sobre%20Cartão%20de%20Crédito%20Consignado." class="stretched-link">CARTÃO DE CRÉDITO CONSIGNADO</a></h4>
                 </div>
               </div><!--End Icon Box -->
 
@@ -97,11 +96,13 @@
         <div class="row gy-4">
           <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
             <h3>Com uma equipe treinada e experiente, a Maktub tem como objetivo resolver os problemas financeiros de seus Clientes através da escolha do melhor produto</h3>
-            <img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">
-            <p><strong> VISÃO:</strong> Consolidar a Maktub como referência em correspondência bancária no mercado de crédito consignado, superando metas e aprimorando a excelência no atendimento aos nossos Clientes, Fornecedores, Parceiros e Colaboradores.</p>
+            <!--<img src="assets/img/about.jpg" class="img-fluid rounded-4 mb-4" alt="">-->
+            
           </div>
           <div class="col-lg-12" data-aos="fade-up" data-aos-delay="250">
+          
             <div class="content ps-0 ps-lg-5">
+            <p><strong> VISÃO:</strong> Consolidar a Maktub como referência em correspondência bancária no mercado de crédito consignado, superando metas e aprimorando a excelência no atendimento aos nossos Clientes, Fornecedores, Parceiros e Colaboradores.</p>
               <p><strong> VALORES:</strong></p>
               <ul>
                 <li><i class="bi bi-check-circle-fill"></i> <span><strong>Excelência:</strong> entendimento das reais necessidades de nossos Clientes ao mesmo tempo em que provemos soluções financeiras com dinamismo e competência.</span></li>
@@ -168,15 +169,15 @@
             }
           </script>
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/daycoval.png"  alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/safra.png"  alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/bb.png"  alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/santander.png"  alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/bradesco.png"  alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/digio.png"  alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/bancomaster.png"  alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/ole.png"  alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/pan.png"  alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/daycoval.png" loading="lazy" alt="Banco Daycoval Parceiro"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/safra.png" loading="lazy" alt="Banco Safra Parceiro"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/bb.png" loading="lazy" alt="Banco do Brasil Parceiro"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/santander.png" loading="lazy" alt="Banco Santander Parceiro"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/bradesco.png" loading="lazy" alt="Banco Bradesco Parceiro"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/digio.png" loading="lazy" alt="Banco Digio Parceiro"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/bancomaster.png" loading="lazy" alt="Banco Master Parceiro"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/ole.png" loading="lazy" alt="Banco Olé Parceiro"></div>
+            <div class="swiper-slide"><img src="assets/img/clients/pan.png" loading="lazy" alt="Banco PAN Parceiro"></div>
           </div>
         </div>
 
@@ -288,7 +289,7 @@
               </div>
               <h3>APOSENTADOS E PENSIONISTAS DO INSS</h3>
               <p>Aproveite as melhores taxas do mercado, faça seu empréstimo com segurança e agilidade.</p>
-              <a href="#" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+              <a target="_blank" href="https://wa.me/557130215454?text=Olá!%20Tenho%20interesse%20nas%20condições%20para%20Aposentados%20e%20Pensionistas%20do%20INSS." class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -299,7 +300,7 @@
               </div>
               <h3>SERVIDORES DO GOVERNO FEDERAL</h3>
               <p>Com taxas e prazos diferenciados, o Servidor Civil do Governo Federal na ativa ou aposentado dispõe de agilidade e segurança na hora de adquirir seu Crédito.</p>
-              <a href="#" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+              <a target="_blank" href="https://wa.me/557130215454?text=Olá!%20Tenho%20interesse%20nas%20condições%20para%20Servidores%20Federais." class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -310,7 +311,7 @@
               </div>
               <h3>SERVIDORES PÚBLICOS DO GOVERNO ESTADUAL</h3>
               <p>Venha à MAKTUB e aproveite as melhores oportunidades em crédito consignado para Servidores Públicos Estaduais com total segurança e agilidade.</p>
-              <a href="#" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+              <a target="_blank" href="https://wa.me/557130215454?text=Olá!%20Tenho%20interesse%20nas%20condições%20para%20Servidores%20Estaduais." class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -321,7 +322,7 @@
               </div>
               <h3>SERVIDORES MUNICIPAIS</h3>
               <p>Venha à MAKTUB e aproveite as melhores oportunidades em crédito consignado para Servidores Públicos Municipais com total segurança e agilidade.</p>
-              <a href="#" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+              <a target="_blank" href="https://wa.me/557130215454?text=Olá!%20Tenho%20interesse%20nas%20condições%20para%20Servidores%20Municipais." class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -332,7 +333,7 @@
               </div>
               <h3>MILITARES NA ATIVA OU REFORMADOS</h3>
               <p>Militares das Forças Armadas (Marinha, Exército e Aeronáutica), da ativa ou reformados, obtenha seu empréstimo pessoal de forma Agil e Segura. Com juros especiais, pré-fixados e parcelamento com prestações fixa</p>
-              <a href="#" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+              <a target="_blank" href="https://wa.me/557130215454?text=Olá!%20Tenho%20interesse%20nas%20condições%20para%20Militares." class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -343,7 +344,7 @@
               </div>
               <h3>FUNCIONÁRIOS DE EMPRESAS PRIVADAS</h3>
               <p>Sem consulta ao SPC e Serasa, sem preocupações com boletos, faturas ou carnês. O desconto é automático. Segurança e tranquilidade para você!</p>
-              <a href="#" class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
+              <a target="_blank" href="https://wa.me/557130215454?text=Olá!%20Tenho%20interesse%20nas%20condições%20para%20Empresas%20Privadas." class="readmore stretched-link">Saiba mais <i class="bi bi-arrow-right"></i></a>
             </div>
           </div><!-- End Service Item -->
 
@@ -394,7 +395,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="Foto de perfil: Cliente Satisfeito" loading="lazy">
                 <h3>Adriana Brito</h3>
                 <!--<h4>Ceo &amp; Founder</h4>-->
                 <div class="stars">
@@ -410,7 +411,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="Foto de perfil: Cliente Satisfeito" loading="lazy">
                 <h3>Mari Oneide</h3>
                 <!--<h4>Designer</h4>-->
                 <div class="stars">
@@ -426,7 +427,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="Foto de perfil: Cliente Satisfeito" loading="lazy">
                 <h3>Diego Fernandes</h3>
                 <!--<h4>Store Owner</h4>-->
                 <div class="stars">
@@ -442,7 +443,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="Foto de perfil: Cliente Satisfeito" loading="lazy">
                 <h3>Marly Florencio</h3>
                 <!--<h4>Freelancer</h4>-->
                 <div class="stars">
@@ -458,7 +459,7 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="Foto de perfil: Cliente Satisfeito" loading="lazy">
                 <h3>John Larson</h3>
                 <!--<h4>Entrepreneur</h4>-->
                 <div class="stars">
@@ -637,6 +638,15 @@
                   <input type="text" class="form-control" name="telefone" id="telefone" required>
                   <div class="invalid-feedback">Por favor, insira um telefone válido.</div>
                 </div>                
+
+                <!-- Honeypot Antispam Field -->
+                <div style="display:nonevisibility:hidden;" class="hp_wrapper" aria-hidden="true">
+                  <style>
+                    .hp_wrapper { opacity: 0; position: absolute; top: 0; left: 0; height: 1px; width: 1px; z-index: -1; }
+                  </style>
+                  <label for="website_url_hp">Website</label>
+                  <input type="text" name="website_url_hp" id="website_url_hp" tabindex="-1" autocomplete="off">
+                </div>
 
                 <div class="form-item col-md-12 text-center">
                   <div class="loading">Carregando</div>
